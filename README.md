@@ -87,27 +87,33 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: Multiple Downloader - 강의영상, 강의자료
 
 ### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
-- Thread & Process - 강의영상, 강의자료
-- Lab: Multiple Downloader - 강의영상, 강의자료
+- File Input & Ouput - 강의영상, 강의자료
+- Lab: File Read & Write - 강의영상, 강의자료
+- Comma Separate Values - 강의영상, 강의자료
+- Lab: SeongNam Data - 강의영상
 
-### 12주차: Web Scraping (eXtensible Markup Languages)
-- Thread & Process - 강의영상, 강의자료
-- Lab: Multiple Downloader - 강의영상, 강의자료
+### 13주차: Web Scraping
+- Web 이해하기 - 강의영상, 강의자료
+- HTML 데이터 다루기 - 강의영상, 강의자료
+- Lab: 정규식으로 데이터 Parsing 하기 - 강의영상
+- BeautifulSoup 다루기 - 강의영상, 강의자료
 
-### 13주차: XML과 JSON (eXtensible Markup Languages and JSON)
-- Thread & Process - 강의영상, 강의자료
-- Lab: Multiple Downloader - 강의영상, 강의자료
+### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
+- XML 이해하기 - 강의영상, 강의자료
+- Lab: USA Patent Data Analysis - 강의영상
+- JSON 이해하기 - 강의영상, 강의자료
+- Lab: JSON Data Analysis - 강의영상
 
-### 14차: Data Handling Application
-- Thread & Process - 강의영상, 강의자료
-- Lab: Multiple Downloader - 강의영상, 강의자료
+### 15차: Data Handling Application
+- Lab: - 강의영상
+- Lab: - 강의영상
+- Lab: - 강의영상
+- Lab: - 강의영상
 
-### 15차: What is NEXT?
-- Thread & Process - 강의영상, 강의자료
-- Lab: Multiple Downloader - 강의영상, 강의자료
-
-### 16차: Final Exame
-- Midterm Problem Set
+### 16차: What is NEXT?
+- Warp Up, Pyhton!- 강의영상, 강의자료
+- NEXT - 강의영상, 강의자료
+- Final Term Problem Set
 
 ## 참고자료
 - [점프 투 파이썬](https://wikidocs.net/book/1), 박응용 지음 , 2014
