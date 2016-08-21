@@ -31,7 +31,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: Atom 에디터 설치
     - Atom on Windows - [설치문서](), 강의영상
     - Atom on Ubuntu - [설치문서](), 강의영상
-    - Atom on Mac OS - [설치문서](), 강의영상
+    - Atom on Mac OS - [설치문서](desc/atom_macos.md), 강의영상
     - Vi Editor on Ubuntu and Mac OS - 설치문서, 강의영상
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
