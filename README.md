@@ -54,11 +54,12 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: 구구단 계산기 - 강의영상
 - Conditio and Loop - 강의영상, 강의자료
 - Lab: 숫자 맞추기 게임 - 강의영상
+- How to debug code - 강의영상, 강의자료
 
 ### 5주차: 함수와 파이썬 코드 작성연습
-- 함수 (Function) - 강의영상, 강의자료
-- Debugging and Troubile Shotting - 강의영상, 강의자료
-- 코딩 컨벤션 (Coding Convention)- 강의영상, 강의자료
+- Function Concept I - 강의영상, 강의자료
+- Function Concept II - 강의영상, 강의자료
+- 코딩 컨벤션과 함수 작성법 - 강의영상, 강의자료
 - Assignment:
 - Assignment:
 
