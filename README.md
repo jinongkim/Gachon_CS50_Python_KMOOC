@@ -19,49 +19,45 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ## 강의 구성
 ### 1주차: 프로그래밍과 파이썬
-- 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://youtu.be/_z6Og4JpuNM?list=PLBHVuYlKEkUI_uviSLukzsF3_DSk5JMbv), 강의자료
+- 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://youtu.be/_z6Og4JpuNM?list=PLBHVuYlKEkUI_uviSLukzsF3_DSk5JMbv), [강의자료](https://doc.co/Bj76p1/EFk5T6)
 - 파이썬 소개 - 강의영상, 강의자료
 - 파이썬 개발환경 개요 - 강의영상, 강의자료
 - Lab: 파이썬 인터프리터 설치
     - Python on Windows - 강의영상
-    - Python on Windows with Ubuntu VM - 강의영상
     - Python on Ubuntu - 강의영상
     - Python on Mac OS - 강의영상
-- Lab: Your First Code "Hello World" - 강의영상, 강의자료
 - Lab: Atom 에디터 설치
     - Atom on Windows - [설치문서](desc/atom_windows.md), 강의영상
     - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), 강의영상
     - Atom on Mac OS - [설치문서](desc/atom_macos.md), 강의영상
-    - Vi Editor on Ubuntu and Mac OS - 설치문서, 강의영상
+- Lab: Your First Code "Hello World" - 강의영상, 강의자료
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
 - 메모리와 변수 - 강의영상, 강의자료
 - 기본 자료형과 연산 - 강의영상, 강의자료
 - Lab: 숙제 제출 방법 - 강의자료, 강의영상
-- Assignment: Arithmetic - 강의영상, 강의자료
-- Assignment: Basic Operations - 강의영상, 강의자료
+- Code Assignment: Arithmetic - 강의영상, 강의자료
+- Code Assignment: Basic Operations - 강의영상, 강의자료
 
 ### 3주차: 화면 입출력과 리스트 다루기 (Console & List Data Type)
 - Console 다루기 - 강의영상, 강의자료
-- Lab: 화씨 변환기 (Fahrenheit Converter) - 강의영상
+- Lab: 화씨 변환기 (Fahrenheit Converter) - 강의영상, [강의자료](https://doc.co/mjke6x/EFk5T6)
 - List Data Type - 강의영상, 강의자료
-- Assignment:
+- Code Assignment:
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
 - Condition - 강의영상, 강의자료
 - Lab: 당신은 무슨 학교 다니세요? - 강의영상
 - Loop - 강의영상, 강의자료
 - Lab: 구구단 계산기 - 강의영상
-- Conditio and Loop - 강의영상, 강의자료
-- Lab: 숫자 맞추기 게임 - 강의영상
+- Lab: Condition and Loop - 강의영상, [강의자료](https://doc.co/TXJguB/EFk5T6)
 - How to debug code - 강의영상, 강의자료
 
 ### 5주차: 함수와 파이썬 코드 작성연습
 - Function Concept I - 강의영상, 강의자료
 - Function Concept II - 강의영상, 강의자료
 - 코딩 컨벤션과 함수 작성법 - 강의영상, 강의자료
-- Assignment:
-- Assignment:
+- Code Assignment:
 
 ### 6주차: 문자열 다루기 (String)
 - 문자열 다루기 (String) - 강의영상, 강의자료
