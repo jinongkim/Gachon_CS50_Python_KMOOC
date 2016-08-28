@@ -21,7 +21,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 ### 1주차: 프로그래밍과 파이썬
 - 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://youtu.be/_z6Og4JpuNM?list=PLBHVuYlKEkUI_uviSLukzsF3_DSk5JMbv), [강의자료](https://doc.co/Bj76p1/EFk5T6)
 - 파이썬 소개 - 강의영상, [강의자료](https://doc.co/pypHHp/EFk5T6)
-- 파이썬 개발환경 개요 - 강의영상, 강의자료
+- 파이썬 개발환경 개요 - [강의영상](https://youtu.be/kEvEERCSkQ0), 강의자료
 - Lab: 파이썬 인터프리터 설치
     - Python on Windows - 강의영상
     - Python on Ubuntu - 강의영상
