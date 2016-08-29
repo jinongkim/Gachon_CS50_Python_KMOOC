@@ -33,8 +33,9 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: Your First Code "Hello World" - 강의영상, 강의자료
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
-- 메모리와 변수 - 강의영상, 강의자료
-- 기본 자료형과 연산 - 강의영상, 강의자료
+- 메모리와 변수 - [강의영상](https://youtu.be/CfEYOMIGSXY), 강의자료
+- 기본 자료형과 연산 - [강의영상](https://youtu.be/oXJjR1TTyAw), 강의자료
+- 자료형 변환 - [강의영상](https://youtu.be/IhNQh381wrg), 강의자료
 - Lab: 숙제 제출 방법 - 강의자료, 강의영상
 - Code Assignment: Arithmetic - 강의영상, 강의자료
 - Code Assignment: Basic Operations - 강의영상, 강의자료
