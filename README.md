@@ -61,7 +61,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Code Assignment:
 
 ### 6주차: 문자열 다루기 (String)
-- 문자열 다루기 (String) - 강의영상, 강의자료
+- 문자열 다루기 (String) - [강의영상](https://youtu.be/k_CBK-JeFNo), 강의자료
 - Lab: Yesterday Letter Counter - 강의영상, [강의자료](https://doc.co/xtswPq/EFk5T6)
 - Assignment: Baseball Game - 설명영상
 
