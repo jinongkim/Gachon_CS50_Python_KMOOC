@@ -15,13 +15,14 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 * 강좌명: Gachon CS50 - 데이터 과학을 위한 파이썬 입문
 * 강의자명: 가천대학교 산업경영공학과 최성철 교수
 * Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50) 
+* 강의자료: [Docs.com](https://docs.com/choi-sungchul/7359) 
 * Email: teamlab.gachon@gmail.com
 
 ## 강의 구성
 ### 1주차: 프로그래밍과 파이썬
-- 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://youtu.be/_z6Og4JpuNM?list=PLBHVuYlKEkUI_uviSLukzsF3_DSk5JMbv), [강의자료](https://doc.co/Bj76p1/EFk5T6)
-- 파이썬 소개 - [강의영상](https://youtu.be/eiLq6jkia7k?list=PLBHVuYlKEkUI_uviSLukzsF3_DSk5JMbv), [강의자료](https://doc.co/pypHHp/EFk5T6)
-- 파이썬 개발환경 개요 - [강의영상](https://youtu.be/kEvEERCSkQ0), 강의자료
+- 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://vimeo.com/180827149/7f7b2664ee), [강의자료](https://doc.co/Bj76p1/EFk5T6)
+- 파이썬 소개 - [강의영상](https://vimeo.com/180852228/2312dc69e9), [강의자료](https://doc.co/pypHHp/EFk5T6)
+- 파이썬 개발환경 개요 - [강의영상](https://vimeo.com/180852285/be157fe954), 강의자료
 - Lab: 파이썬 인터프리터 설치
     - Python on Windows - 설치문서, 강의영상
     - Python on Ubuntu - 설치문서, 강의영상
@@ -32,9 +33,9 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
     - Atom on Mac OS - [설치문서](desc/atom_macos.md), 강의영상
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
-- 메모리와 변수 - [강의영상](https://youtu.be/CfEYOMIGSXY), 강의자료
-- 기본 자료형과 연산 - [강의영상](https://youtu.be/oXJjR1TTyAw), 강의자료
-- 자료형 변환 - [강의영상](https://youtu.be/IhNQh381wrg), 강의자료
+- 메모리와 변수 - [강의영상](https://vimeo.com/180852404/a1599a7f21), 강의자료
+- 기본 자료형과 연산 - [강의영상](https://vimeo.com/180852405/34826fa1a8), 강의자료
+- 자료형 변환 - [강의영상](https://vimeo.com/180852406/de9e4d59fd), 강의자료
 - Lab: 숙제 제출 방법 - 강의자료, 강의영상
 - Code Assignment: Arithmetic - 강의영상, 강의자료
 - Code Assignment: Basic Operations - 강의영상, 강의자료
@@ -60,17 +61,24 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Code Assignment:
 
 ### 6주차: 문자열 다루기 (String)
-- 문자열 다루기 (String) - [강의영상](https://youtu.be/k_CBK-JeFNo), 강의자료
+- 문자열 다루기 (String) - [강의영상](https://vimeo.com/180852569/fdd8a6c1ce), 강의자료
 - Lab: Yesterday Letter Counter - 강의영상, [강의자료](https://doc.co/xtswPq/EFk5T6)
 - Assignment: Baseball Game - 설명영상
 
 ### 7주차: 자료 구조 (Data Structure)
+- 자료구조 개요 (Data Structure) - 강의영상, 강의자료
+- Stack & Queue - 강의영상, 강의자료
+- Tuple & Set (Data Structure) - 강의영상, 강의자료
 - 자료구조 (Data Structure) - 강의영상, 강의자료
+
 - Lab: Command Counter - 강의영상
 - Assignment: Morse Code - 설명영상
 
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
-- Pythonic Code - 강의영상, 강의자료
+- Pythonic Code Overview - 강의영상, 강의자료
+- Split & Join - 강의영상, 강의자료
+- List Comprehension - 강의영상, 강의자료
+- Enumerate & Zip - 강의영상, 강의자료
 - Midterm Problem Set
 
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
