@@ -22,7 +22,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 ### 1주차: 프로그래밍과 파이썬
 - 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://vimeo.com/180827149/7f7b2664ee), [강의자료](https://doc.co/Bj76p1/EFk5T6)
 - 파이썬 소개 - [강의영상](https://vimeo.com/180852228/2312dc69e9), [강의자료](https://doc.co/pypHHp/EFk5T6)
-- 파이썬 개발환경 개요 - [강의영상](https://vimeo.com/180852285/be157fe954), 강의자료
+- 파이썬 개발환경 개요 - [강의영상](https://vimeo.com/180852285/be157fe954), [강의자료](https://docs.com/choi-sungchul/2824/week-1-3?c=EFk5T6)
 - Lab: 파이썬 인터프리터 설치
     - Python on Windows - 설치문서, 강의영상
     - Python on Ubuntu - 설치문서, 강의영상
@@ -33,31 +33,31 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
     - Atom on Mac OS - [설치문서](desc/atom_macos.md), 강의영상
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
-- 메모리와 변수 - [강의영상](https://vimeo.com/180852404/a1599a7f21), 강의자료
-- 기본 자료형과 연산 - [강의영상](https://vimeo.com/180852405/34826fa1a8), 강의자료
-- 자료형 변환 - [강의영상](https://vimeo.com/180852406/de9e4d59fd), 강의자료
+- 메모리와 변수 - [강의영상](https://vimeo.com/180852404/a1599a7f21), [강의자료](https://docs.com/choi-sungchul/8017/week-2-1?c=EFk5T6)
+- 기본 자료형과 연산 - [강의영상](https://vimeo.com/180852405/34826fa1a8), [강의자료](https://docs.com/choi-sungchul/7044/week-2-2?c=EFk5T6)
+- 자료형 변환 - [강의영상](https://vimeo.com/180852406/de9e4d59fd), [강의자료](https://docs.com/choi-sungchul/3473/week-2-3?c=EFk5T6)
 - Lab: 숙제 제출 방법 - 강의자료, 강의영상
 - Code Assignment: Arithmetic - 강의영상, 강의자료
 - Code Assignment: Basic Operations - 강의영상, 강의자료
 
 ### 3주차: 화면 입출력과 리스트 다루기 (Console & List Data Type)
-- Console 다루기 - 강의영상, 강의자료
+- Console 다루기 - 강의영상, [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
 - Lab: 화씨 변환기 (Fahrenheit Converter) - 강의영상, [강의자료](https://doc.co/mjke6x/EFk5T6)
-- List Data Type - 강의영상, 강의자료
+- List Data Type - 강의영상, [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
 - Code Assignment:
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
-- Condition - 강의영상, 강의자료
+- Condition - 강의영상, [강의자료](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
 - Lab: 당신은 무슨 학교 다니세요? - 강의영상
-- Loop - 강의영상, 강의자료
+- Loop - 강의영상, [강의자료](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
 - Lab: 구구단 계산기 - 강의영상
 - Lab: Condition and Loop - 강의영상, [강의자료](https://doc.co/TXJguB/EFk5T6)
-- How to debug code - 강의영상, 강의자료
+- How to debug code - 강의영상, [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
 
 ### 5주차: 함수와 파이썬 코드 작성연습
-- Function Concept I - 강의영상, 강의자료
-- Function Concept II - 강의영상, 강의자료
-- 코딩 컨벤션과 함수 작성법 - 강의영상, 강의자료
+- Function Concept I - 강의영상, [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
+- Function Concept II - 강의영상, [강의자료](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
+- 코딩 컨벤션과 함수 작성법 - 강의영상, [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
 - Code Assignment:
 
 ### 6주차: 문자열 다루기 (String)
@@ -66,19 +66,19 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Assignment: Baseball Game - 설명영상
 
 ### 7주차: 자료 구조 (Data Structure)
-- 자료구조 개요 (Data Structure) - 강의영상, 강의자료
-- Stack & Queue - 강의영상, 강의자료
-- Tuple & Set (Data Structure) - 강의영상, 강의자료
-- 자료구조 (Data Structure) - 강의영상, 강의자료
+- 자료구조 개요 (Data Structure) - 강의영상, [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
+- Stack & Queue - 강의영상, [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
+- Tuple & Set (Data Structure) - 강의영상, [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
+- 자료구조 (Data Structure) - 강의영상, [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
 
 - Lab: Command Counter - 강의영상
 - Assignment: Morse Code - 설명영상
 
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
-- Pythonic Code Overview - 강의영상, 강의자료
-- Split & Join - 강의영상, 강의자료
-- List Comprehension - 강의영상, 강의자료
-- Enumerate & Zip - 강의영상, 강의자료
+- Pythonic Code Overview - 강의영상, [강의자료](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
+- Split & Join - 강의영상, [강의자료](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
+- List Comprehension - 강의영상, [강의자료](https://docs.com/choi-sungchul/7934/week-8-3-list-comprehension?c=EFk5T6)
+- Enumerate & Zip - 강의영상, [강의자료](https://docs.com/choi-sungchul/5388/week-8-4-enumerate-zip?c=EFk5T6)
 - Midterm Problem Set
 
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
