@@ -76,7 +76,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
 - Pythonic Code Overview - [강의영상](https://vimeo.com/181268018/94c984f18c), [강의자료](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
-- Split & Join - 강의영상, [강의영상](https://vimeo.com/181268017/12e9971bb3), [강의자료](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
+- Split & Join - [강의영상](https://vimeo.com/181268017/12e9971bb3), [강의자료](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
 - List Comprehension - [강의영상](https://vimeo.com/181268020/61e13aa55d), [강의자료](https://docs.com/choi-sungchul/7934/week-8-3-list-comprehension?c=EFk5T6)
 - Enumerate & Zip - [강의영상](https://vimeo.com/181268019/37892a022d), [강의자료](https://docs.com/choi-sungchul/5388/week-8-4-enumerate-zip?c=EFk5T6)
 - Midterm Problem Set
