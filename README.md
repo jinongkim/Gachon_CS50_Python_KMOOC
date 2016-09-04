@@ -55,7 +55,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - How to debug code - [강의영상](https://vimeo.com/180864932/bb37df35bc), [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
 
 ### 5주차: 함수와 파이썬 코드 작성연습
-- Function Concept I - 강의영상, [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
+- Function Concept I - [강의영상](https://vimeo.com/181367144/710c7fc6e2), [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
 - Function Concept II - 강의영상, [강의자료](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
 - 코딩 컨벤션과 함수 작성법 - 강의영상, [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
 - Code Assignment:
