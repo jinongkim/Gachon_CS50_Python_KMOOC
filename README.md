@@ -41,9 +41,9 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Code Assignment: Basic Operations - 강의영상, 강의자료
 
 ### 3주차: 화면 입출력과 리스트 다루기 (Console & List Data Type)
-- Console 다루기 - 강의영상, [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
+- Console 다루기 - [강의영상](https://vimeo.com/181621955/d78ef805a7), [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
 - Lab: 화씨 변환기 (Fahrenheit Converter) - 강의영상, [강의자료](https://doc.co/mjke6x/EFk5T6)
-- List Data Type - 강의영상, [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
+- List Data Type - [강의영상](https://vimeo.com/181621956/ecbb4d0a26), [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
 - Code Assignment:
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
@@ -56,8 +56,8 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 5주차: 함수와 파이썬 코드 작성연습
 - Function Concept I - [강의영상](https://vimeo.com/181367144/710c7fc6e2), [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
-- Function Concept II - 강의영상, [강의자료](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
-- 코딩 컨벤션과 함수 작성법 - 강의영상, [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
+- Function Concept II - [강의영상](https://vimeo.com/181622471/3f1bbf8479), [강의자료](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
+- 코딩 컨벤션과 함수 작성법 - [강의영상](https://vimeo.com/181622470/56a56d3af5), [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
 - Code Assignment:
 
 ### 6주차: 문자열 다루기 (String)
@@ -66,8 +66,8 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Assignment: Baseball Game - 설명영상
 
 ### 7주차: 자료 구조 (Data Structure)
-- 자료구조 개요 (Data Structure) - 강의영상, [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
-- Stack & Queue - 강의영상, [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
+- 자료구조 개요 (Data Structure) - [강의영상](https://vimeo.com/181622626/8b52be5c1c), [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
+- Stack & Queue - [강의영상](https://vimeo.com/181622625/bf15043832), [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
 - Tuple & Set (Data Structure) - 강의영상, [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
 - 자료구조 (Data Structure) - 강의영상, [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
 
