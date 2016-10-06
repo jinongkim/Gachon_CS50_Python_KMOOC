@@ -33,11 +33,11 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - 파이썬 개발환경 개요 - [강의영상](https://vimeo.com/180852285/be157fe954), [강의자료](https://docs.com/choi-sungchul/2824/week-1-3?c=EFk5T6)
 - Lab: 파이썬 인터프리터 설치
     - Miniconda on Windows - 설치문서, [강의영상](https://vimeo.com/184094537/5097c0366b)
-    - Miniconda on Ubuntu - 설치문서, 강의영상
+    - Miniconda on Ubuntu - 설치문서, [강의영상](https://vimeo.com/185762279/3129ce4b7e)
     - Miniconda on Mac OS - 설치문서, 강의영상
 - Lab: Atom 에디터 설치
     - Atom on Windows - [설치문서](desc/atom_windows.md), [강의영상](https://vimeo.com/184094536/9dfa58639b)
-    - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), 강의영상
+    - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), [강의영상](https://vimeo.com/185762281/7cb71ed926)
     - Atom on Mac OS - [설치문서](desc/atom_macos.md), 강의영상
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
