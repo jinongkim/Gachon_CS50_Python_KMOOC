@@ -13,19 +13,18 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ## 강의 개요
 * 강좌명: Gachon CS50 - 데이터 과학을 위한 파이썬 입문
-* 강의자명: 가천대학교 산업경영공학과 최성철 교수
+* 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of @TeamLab)
 * Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50) 
 * 강의자료: [Docs.com](https://docs.com/choi-sungchul/7359) 
 * Email: teamlab.gachon@gmail.com
 
 ## Teacher Assistnat
-* [이현주](https://github.com/hyoenju) (l67378810@gmail.com, 학부생연구원 at TeamLab)
-* [장시온](https://github.com/janguck) (wayterren@gmail.com, 학부생연구원 at TeamLab)
-* [김진홍](https://github.com/jinongkim) (xox8498@gmail.com, 학부생연구원 at TeamLab)
-* [서자영](https://github.com/jayoungseo) (tjwkdud0423@gmail.com, 학부생연구원 at TeamLab)
-* [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at TeamLab)
-* [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at TeamLab)
-
+* [이현주](https://github.com/hyoenju) (l67378810@gmail.com, 학부생연구원 at @TeamLab)
+* [장시온](https://github.com/janguck) (wayterren@gmail.com, 학부생연구원 at @TeamLab)
+* [김진홍](https://github.com/jinongkim) (xox8498@gmail.com, 학부생연구원 at @TeamLab)
+* [서자영](https://github.com/jayoungseo) (tjwkdud0423@gmail.com, 학부생연구원 at @TeamLab)
+* [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at @TeamLab)
+* [김성철](https://github.com/SeongCheol-Kim) (sckim219@gmail.com, 학부생 인턴연구원 at @TeamLab)
 ## 강의 구성
 ### 1주차: 프로그래밍과 파이썬
 - 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://vimeo.com/180827149/7f7b2664ee), [강의자료](https://doc.co/Bj76p1/EFk5T6)
