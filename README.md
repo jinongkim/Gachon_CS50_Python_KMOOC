@@ -13,18 +13,18 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ## 강의 개요
 * 강좌명: Gachon CS50 - 데이터 과학을 위한 파이썬 입문
-* 강의자명: 가천대학교 산업경영공학과 최성철 교수
+* 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of [@TeamLab](https://github.com/TeamLab))
 * Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50) 
 * 강의자료: [Docs.com](https://docs.com/choi-sungchul/7359) 
 * Email: teamlab.gachon@gmail.com
 
 ## Teacher Assistnat
-* [이현주](https://github.com/hyoenju) (l67378810@gmail.com, 학부생연구원 at TeamLab)
-* [장시온](https://github.com/janguck) (wayterren@gmail.com, 학부생연구원 at TeamLab)
-* [김진홍](https://github.com/jinongkim) (xox8498@gmail.com, 학부생연구원 at TeamLab)
-* [서자영](https://github.com/jayoungseo) (tjwkdud0423@gmail.com, 학부생연구원 at TeamLab)
-* [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at TeamLab)
-* [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at TeamLab)
+* [이현주](https://github.com/hyoenju) (l67378810@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
+* [장시온](https://github.com/janguck) (wayterren@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
+* [김진홍](https://github.com/jinongkim) (xox8498@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
+* [서자영](https://github.com/jayoungseo) (tjwkdud0423@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
+* [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
+* [김성철](https://github.com/SeongCheol-Kim) (sckim219@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 
 ## 강의 구성
 ### 1주차: 프로그래밍과 파이썬
@@ -33,11 +33,11 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - 파이썬 개발환경 개요 - [강의영상](https://vimeo.com/180852285/be157fe954), [강의자료](https://docs.com/choi-sungchul/2824/week-1-3?c=EFk5T6)
 - Lab: 파이썬 인터프리터 설치
     - Miniconda on Windows - 설치문서, [강의영상](https://vimeo.com/184094537/5097c0366b)
-    - Miniconda on Ubuntu - 설치문서, 강의영상
+    - Miniconda on Ubuntu - 설치문서, [강의영상](https://vimeo.com/185762279/3129ce4b7e)
     - Miniconda on Mac OS - 설치문서, 강의영상
 - Lab: Atom 에디터 설치
     - Atom on Windows - [설치문서](desc/atom_windows.md), [강의영상](https://vimeo.com/184094536/9dfa58639b)
-    - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), 강의영상
+    - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), [강의영상](https://vimeo.com/185762281/7cb71ed926)
     - Atom on Mac OS - [설치문서](desc/atom_macos.md), 강의영상
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
@@ -78,7 +78,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Stack & Queue - [강의영상](https://vimeo.com/184667140/f24a69f788), [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
 - Tuple & Set (Data Structure) - [강의영상](https://vimeo.com/184666895/851e1fcc9d), [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
 - 자료구조 (Data Structure) - [강의영상](https://vimeo.com/184666894/4c98409e18), [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
-- Lab: Command Counter - 강의영상
+- Lab: Command Counter - 강의영상, [강의자료](https://doc.co/v5vBq6/EFk5T6)
 - Assignment: Morse Code - 설명영상
 
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
