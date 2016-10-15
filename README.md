@@ -70,7 +70,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 6주차: 문자열 다루기 (String)
 - 문자열 다루기 (String) - [강의영상](https://vimeo.com/180852569/fdd8a6c1ce), 강의자료
-- Lab: Yesterday Letter Counter - 강의영상, [강의자료](https://doc.co/xtswPq/EFk5T6)
+- Lab: Yesterday Letter Counter - [강의영상](https://vimeo.com/187444064/82bd019692), [강의자료](https://doc.co/xtswPq/EFk5T6)
 - Assignment: Baseball Game - 설명영상
 
 ### 7주차: 자료 구조 (Data Structure)
