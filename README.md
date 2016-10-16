@@ -50,7 +50,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 3주차: 화면 입출력과 리스트 다루기 (Console & List Data Type)
 - Console 다루기 - [강의영상](https://vimeo.com/184666839/0ab7ac4231), [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
-- Lab: 화씨 변환기 (Fahrenheit Converter) - 강의영상, [강의자료](https://doc.co/mjke6x/EFk5T6)
+- Lab: 화씨 변환기 (Fahrenheit Converter) - [강의영상](https://vimeo.com/187526293/7c74d3fbdf), [강의자료](https://doc.co/mjke6x/EFk5T6)
 - List Data Type - [강의영상](https://vimeo.com/181621956/ecbb4d0a26), [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
 - Code Assignment:
 
@@ -77,15 +77,15 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - 자료구조 개요 (Data Structure) - [강의영상](https://vimeo.com/184667138/d0bc578a12), [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
 - Stack & Queue - [강의영상](https://vimeo.com/184667140/f24a69f788), [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
 - Tuple & Set (Data Structure) - [강의영상](https://vimeo.com/184666895/851e1fcc9d), [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
-- 자료구조 (Data Structure) - [강의영상](https://vimeo.com/184666894/4c98409e18), [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
-- Lab: Command Counter - 강의영상, [강의자료](https://doc.co/v5vBq6/EFk5T6)
-- Assignment: Morse Code - 설명영상
+- 사전 (Dictionary) - [강의영상](https://vimeo.com/184666894/4c98409e18), [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
+- Lab: Command Counter - [강의영상](https://vimeo.com/187525790/1e8eef5dde), [강의자료](https://doc.co/v5vBq6/EFk5T6)
 
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
 - Pythonic Code Overview - [강의영상](https://vimeo.com/181268018/94c984f18c), [강의자료](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
 - Split & Join - [강의영상](https://vimeo.com/181268017/12e9971bb3), [강의자료](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
 - List Comprehension - [강의영상](https://vimeo.com/181268020/61e13aa55d), [강의자료](https://docs.com/choi-sungchul/7934/week-8-3-list-comprehension?c=EFk5T6)
 - Enumerate & Zip - [강의영상](https://vimeo.com/181268019/37892a022d), [강의자료](https://docs.com/choi-sungchul/5388/week-8-4-enumerate-zip?c=EFk5T6)
+- Assignment: Morse Code - 설명영상
 - Midterm Problem Set
 
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
