@@ -34,11 +34,11 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: 파이썬 인터프리터 설치
     - Miniconda on Windows - 설치문서, [강의영상](https://vimeo.com/184094537/5097c0366b)
     - Miniconda on Ubuntu - 설치문서, [강의영상](https://vimeo.com/185762279/3129ce4b7e)
-    - Miniconda on Mac OS - 설치문서, 강의영상
+    - Miniconda on Mac OS - 설치문서, [강의영상](https://vimeo.com/188925744/4f6b0af41a)
 - Lab: Atom 에디터 설치
     - Atom on Windows - [설치문서](desc/atom_windows.md), [강의영상](https://vimeo.com/184094536/9dfa58639b)
     - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), [강의영상](https://vimeo.com/185762281/7cb71ed926)
-    - Atom on Mac OS - [설치문서](desc/atom_macos.md), 강의영상
+    - Atom on Mac OS - [설치문서](desc/atom_macos.md), [강의영상](https://vimeo.com/188925743/0b43afe88e)
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
 - 메모리와 변수 - [강의영상](https://vimeo.com/180852404/a1599a7f21), [강의자료](https://docs.com/choi-sungchul/8017/week-2-1?c=EFk5T6)
@@ -89,39 +89,44 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Midterm Problem Set
 
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
-- Objective-Oriented Programming - 강의영상, 강의자료
-- Modules & Packages - 강의영상, 강의자료
-- Lab: Your OO World - 강의영상, 강의자료
+- Objective-Oriented Programming Overview - 강의영상, 강의자료
+- Objects in Python - 강의영상, 강의자료
+- Lab: Note and Notebook - 강의영상, 강의자료
+- OOP characteristics - 강의영상, 강의자료
 
-### 10주차: 쓰레드와 프로세스 (Thread and Process)
+### 10주차: 모듈과 패키지 (Module & Packages)
+- Overview - 강의영상, 강의자료
+- Modules과 Namespace - 강의영상, 강의자료
+- Package 만들기 - 강의영상, 강의자료
+- 가상환경과 Package 설치 - 강의영상, 강의자료
+
+### 11주차: 예외 처리 (Exception Handling)
 - Thread & Process - 강의영상, 강의자료
 - Lab: Multiple Downloader - 강의영상, 강의자료
 
-### 11주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
+### 12주차: 동시성 (Thread and Process)
+- Thread & Process - 강의영상, 강의자료
+- Lab: Multiple Downloader - 강의영상, 강의자료
+
+### 13주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
 - File Input & Ouput - 강의영상, 강의자료
 - Lab: File Read & Write - 강의영상, 강의자료
 - Comma Separate Values - 강의영상, 강의자료
 - Lab: SeongNam Data - 강의영상
 
-### 12주차: Web Scraping
+### 14주차: Web Scraping
 - Web 이해하기 - 강의영상, 강의자료
 - HTML 데이터 다루기 - 강의영상, 강의자료
 - Lab: 정규식으로 데이터 Parsing 하기 - 강의영상
 - BeautifulSoup 다루기 - 강의영상, 강의자료
 
-### 13주차: XML과 JSON (eXtensible Markup Languages and JSON)
+### 15주차: XML과 JSON (eXtensible Markup Languages and JSON)
 - XML 이해하기 - 강의영상, 강의자료
 - Lab: USA Patent Data Analysis - 강의영상
 - JSON 이해하기 - 강의영상, 강의자료
 - Lab: JSON Data Analysis - 강의영상
 
-### 14차: Data Handling Application
-- Lab: - 강의영상
-- Lab: - 강의영상
-- Lab: - 강의영상
-- Lab: - 강의영상
-
-### 15차: What is NEXT?
+### 16차: What is NEXT?
 - Warp Up, Pyhton!- 강의영상, 강의자료
 - NEXT - 강의영상, 강의자료
 - Final Term Problem Set
