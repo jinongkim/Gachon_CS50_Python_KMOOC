@@ -124,11 +124,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - JSON 이해하기 - 강의영상, 강의자료
 - Lab: JSON Data Analysis - 강의영상
 
-### 15주차: 동시성 (Thread and Process)
-- Thread & Process - 강의영상, 강의자료
-- Lab: Multiple Downloader - 강의영상, 강의자료
-
-### 16차: What is NEXT?
+### 15차: What is NEXT?
 - Warp Up, Pyhton!- 강의영상, 강의자료
 - NEXT - 강의영상, 강의자료
 - Final Term Problem Set
