@@ -114,11 +114,12 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 ### 13주차: Web Scraping
 - Web 이해하기 - 강의영상, 강의자료
 - HTML 데이터 다루기 - 강의영상, 강의자료
-- Lab: 정규식으로 데이터 Parsing 하기 - 강의영상
-- BeautifulSoup 다루기 - 강의영상, 강의자료
+- 정규 표현식: Regular Expression - 강의영상, 강의자료
+- Lab: RegEx - 강의영상, 강의자료
 
 ### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
 - XML 이해하기 - 강의영상, 강의자료
+- BeautifulSoup 다루기 - 강의영상, 강의자료
 - Lab: USA Patent Data Analysis - 강의영상
 - JSON 이해하기 - 강의영상, 강의자료
 - Lab: JSON Data Analysis - 강의영상
