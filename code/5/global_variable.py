@@ -1,8 +1,8 @@
-def f():
-    global s 
-    s = "I love London!"
-    print(s)
+def test(t):
+    print(x)
+    t = 20
+    print ("In Function :", t)
 
-s = "I love Paris!"
-f()
-print(s)
+x = 10
+test(x)
+print(t)
