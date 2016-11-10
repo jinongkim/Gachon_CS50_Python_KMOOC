@@ -59,7 +59,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: 당신은 무슨 학교 다니세요? - [강의영상](https://vimeo.com/190998764/3bb4326bf6), [강의자료](https://doc.co/ukigBi/EFk5T6)
 - Loop - [강의영상](https://vimeo.com/180864673/b348758662), [강의자료](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
 - Lab: 구구단 계산기 - 강의영상
-- Lab: Condition and Loop - 강의영상, [강의자료](https://doc.co/TXJguB/EFk5T6)
+- Lab: Condition and Loop - [강의영상#1](https://vimeo.com/190999848/f94adc194d), [강의영상#2](https://vimeo.com/190999850/ced71cc7b7), [강의자료](https://doc.co/TXJguB/EFk5T6)
 - How to debug code - [강의영상](https://vimeo.com/180864932/bb37df35bc), [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
 
 ### 5주차: 함수와 파이썬 코드 작성연습
