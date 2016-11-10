@@ -56,7 +56,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
 - Condition - [강의영상](https://vimeo.com/180864670/d591d1c767), [강의자료](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
-- Lab: 당신은 무슨 학교 다니세요? - 강의영상
+- Lab: 당신은 무슨 학교 다니세요? - [강의영상](https://vimeo.com/190998764/3bb4326bf6), [강의자료](https://doc.co/ukigBi/EFk5T6)
 - Loop - [강의영상](https://vimeo.com/180864673/b348758662), [강의자료](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
 - Lab: 구구단 계산기 - 강의영상
 - Lab: Condition and Loop - 강의영상, [강의자료](https://doc.co/TXJguB/EFk5T6)
