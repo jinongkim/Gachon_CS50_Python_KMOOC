@@ -95,7 +95,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - OOP characteristics - 강의영상, [강의자료](https://doc.co/bFqNQT/EFk5T6)
 
 ### 10주차: 모듈과 패키지 (Module & Packages)
-- Overview - [강의영상](), 강의자료
+- Overview - [강의영상](https://vimeo.com/191267097/94ed2ec64f), 강의자료
 - Modules - 강의영상, 강의자료
 - Packages - 강의영상, 강의자료
 - 가상환경과 Package 활용하기 - 강의영상, 강의자료
