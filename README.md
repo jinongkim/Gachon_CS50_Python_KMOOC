@@ -102,7 +102,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 11주차: 예외 처리 (Exception Handling)
 - Overview - [강의영상](https://vimeo.com/191340392/a341678aa6), 강의자료
-- Exception Handling - 강의영상, 강의자료
+- Exception Handling - [강의영상](https://vimeo.com/191344605/afa6b18247), 강의자료
 - Lab: - 강의영상, 강의자료
 
 ### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
