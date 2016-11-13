@@ -107,7 +107,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
 - File Handling Overview - [강의영상](https://vimeo.com/191273680/92e675c6b4), 강의자료
-- File Handling - 강의영상, 강의자료
+- File Handling - [강의영상](https://vimeo.com/191341638/bca983a4ff), 강의자료
 - Comma Separate Values  - 강의영상, 강의자료
 - Lab: CSV with Pandas - 강의영상, 강의자료
 
