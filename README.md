@@ -112,7 +112,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: CSV with Pandas - 강의영상, 강의자료
 
 ### 13주차: Web Scraping
-- Web 이해하기 - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), 강의자료
+- Web 이해하기 - [강의영상](https://vimeo.com/191340154/d3522d205f), 강의자료
 - HTML 데이터 다루기 - [강의영상](https://vimeo.com/191340157/a0d1bd9d93), 강의자료
 - 정규 표현식: Regular Expression - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), 강의자료
 - Lab: RegEx - 강의영상, 강의자료
