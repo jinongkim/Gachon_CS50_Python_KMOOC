@@ -56,11 +56,11 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
 - Condition - [강의영상](https://vimeo.com/180864670/d591d1c767), [강의자료](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
-- Lab: 당신은 무슨 학교 다니세요? - 강의영상
-- Loop - [강의영상](https://vimeo.com/180864673/b348758662), [강의자료](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
-- Lab: 구구단 계산기 - 강의영상
-- Lab: Condition and Loop - 강의영상, [강의자료](https://doc.co/TXJguB/EFk5T6)
-- How to debug code - [강의영상](https://vimeo.com/180864932/bb37df35bc), [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
+- Lab: 당신은 무슨 학교 다니세요? - [강의영상](https://vimeo.com/190998764/3bb4326bf6), [강의자료](https://doc.co/ukigBi/EFk5T6)
+- Loop - [강의영상](https://vimeo.com/180864932/bb37df35bc), [강의자료](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
+- Lab: 구구단 계산기 - [강의영상](https://vimeo.com/191266761/dc7c8ea0c8), [강의자료](https://doc.co/j8LVwB/EFk5T6)
+- Lab: Condition and Loop - [강의영상#1](https://vimeo.com/190999848/f94adc194d), [강의영상#2](https://vimeo.com/190999850/ced71cc7b7), [강의자료](https://doc.co/TXJguB/EFk5T6)
+- How to debug code - [강의영상](https://vimeo.com/191268028/f459075015), [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
 
 ### 5주차: 함수와 파이썬 코드 작성연습
 - Function Concept I - [강의영상](https://vimeo.com/181367144/710c7fc6e2), [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
@@ -95,26 +95,26 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - OOP characteristics - 강의영상, [강의자료](https://doc.co/bFqNQT/EFk5T6)
 
 ### 10주차: 모듈과 패키지 (Module & Packages)
-- Overview - 강의영상, 강의자료
-- Modules - 강의영상, 강의자료
-- Packages - 강의영상, 강의자료
+- Overview - [강의영상](https://vimeo.com/191267097/94ed2ec64f), 강의자료
+- Modules - [강의영상](https://vimeo.com/191268214/f510344b5b), 강의자료
+- Packages - [강의영상](https://vimeo.com/191268215/317f23b363), 강의자료
 - 가상환경과 Package 활용하기 - 강의영상, 강의자료
 
 ### 11주차: 예외 처리 (Exception Handling)
-- Overview - 강의영상, 강의자료
-- Exception Handling - 강의영상, 강의자료
+- Overview - [강의영상](https://vimeo.com/191340392/a341678aa6), 강의자료
+- Exception Handling - [강의영상](https://vimeo.com/191344605/afa6b18247), 강의자료
 - Lab: - 강의영상, 강의자료
 
 ### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
-- File Handling Overview - 강의영상, 강의자료
-- File Handling - 강의영상, 강의자료
+- File Handling Overview - [강의영상](https://vimeo.com/191273680/92e675c6b4), 강의자료
+- File Handling - [강의영상](https://vimeo.com/191341638/bca983a4ff), 강의자료
 - Comma Separate Values  - 강의영상, 강의자료
 - Lab: CSV with Pandas - 강의영상, 강의자료
 
 ### 13주차: Web Scraping
-- Web 이해하기 - 강의영상, 강의자료
-- HTML 데이터 다루기 - 강의영상, 강의자료
-- 정규 표현식: Regular Expression - 강의영상, 강의자료
+- Web 이해하기 - [강의영상](https://vimeo.com/191340154/d3522d205f), 강의자료
+- HTML 데이터 다루기 - [강의영상](https://vimeo.com/191340157/a0d1bd9d93), 강의자료
+- 정규 표현식: Regular Expression - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), 강의자료
 - Lab: RegEx - 강의영상, 강의자료
 
 ### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
