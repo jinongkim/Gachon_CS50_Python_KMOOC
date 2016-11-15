@@ -95,26 +95,26 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - OOP characteristics - 강의영상, [강의자료](https://doc.co/bFqNQT/EFk5T6)
 
 ### 10주차: 모듈과 패키지 (Module & Packages)
-- Overview - [강의영상](https://vimeo.com/191267097/94ed2ec64f), 강의자료
-- Modules - [강의영상](https://vimeo.com/191268214/f510344b5b), 강의자료
-- Packages - [강의영상](https://vimeo.com/191268215/317f23b363), 강의자료
+- Overview - [강의영상](https://vimeo.com/191267097/94ed2ec64f), [강의자료](https://doc.co/uJ7H6L/EFk5T6)
+- Modules - [강의영상](https://vimeo.com/191268214/f510344b5b), [강의자료](https://doc.co/qNxUN1/EFk5T6)
+- Packages - [강의영상](https://vimeo.com/191268215/317f23b363), [강의자료](https://doc.co/hXxeLm/EFk5T6)
 - 가상환경과 Package 활용하기 - [강의영상](https://vimeo.com/191484536/959538efe4), 강의자료
 
 ### 11주차: 예외 처리 (Exception Handling)
-- Overview - [강의영상](https://vimeo.com/191340392/a341678aa6), 강의자료
-- Exception Handling - [강의영상](https://vimeo.com/191344605/afa6b18247), 강의자료
+- Overview - [강의영상](https://vimeo.com/191340392/a341678aa6), [강의자료](https://doc.co/hyRaci/EFk5T6)
+- Exception Handling - [강의영상](https://vimeo.com/191344605/afa6b18247), [강의자료](https://doc.co/oyGK7M/EFk5T6)
 - Lab: - 강의영상, 강의자료
 
 ### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
-- File Handling Overview - [강의영상](https://vimeo.com/191273680/92e675c6b4), 강의자료
-- File Handling - [강의영상](https://vimeo.com/191341638/bca983a4ff), 강의자료
-- Comma Separate Values  - [강의영상](https://vimeo.com/191590754/6bedf29084), 강의자료
+- File Handling Overview - [강의영상](https://vimeo.com/191273680/92e675c6b4), [강의자료](https://doc.co/5XWkVi/EFk5T6)
+- File Handling - [강의영상](https://vimeo.com/191341638/bca983a4ff), [강의자료](https://doc.co/hYt3mx/EFk5T6)
+- Comma Separate Values  - [강의영상](https://vimeo.com/191590754/6bedf29084), [강의자료](https://doc.co/1PDdBj/EFk5T6)
 - Lab: CSV with Pandas - 강의영상, 강의자료
 
 ### 13주차: Web Scraping
-- Web 이해하기 - [강의영상](https://vimeo.com/191340154/d3522d205f), 강의자료
-- HTML 데이터 다루기 - [강의영상](https://vimeo.com/191340157/a0d1bd9d93), 강의자료
-- 정규 표현식: Regular Expression - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), 강의자료
+- Web 이해하기 - [강의영상](https://vimeo.com/191340154/d3522d205f), [강의자료](https://doc.co/WuDBwm/EFk5T6)
+- HTML 데이터 다루기 - [강의영상](https://vimeo.com/191340157/a0d1bd9d93), [강의자료](https://doc.co/5DcmMo/EFk5T6)
+- 정규 표현식: Regular Expression - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), [강의자료](https://doc.co/5DcmMo/EFk5T6)
 - Lab: RegEx - 강의영상, 강의자료
 
 ### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
