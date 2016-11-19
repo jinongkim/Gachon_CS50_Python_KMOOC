@@ -1,6 +1,3 @@
-# import os
-# os.mkdir("log")
-
 import os
 if not os.path.isdir("log"):
     os.mkdir("log")
@@ -14,5 +11,5 @@ with open("log/count_log.txt", 'a', encoding="utf8") as f:
     for i in range(1, 11):
         stamp = str(datetime.datetime.now())
         value = random.random() * 1000000
-        log_line = stamp + "\t" + str(value) +"값이 생성되었습니다" + "\n"
+        log_line = stamp + "\t" + str(value) +"값이 생성되었습니다"
         f.write(log_line)
