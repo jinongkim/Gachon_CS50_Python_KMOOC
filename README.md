@@ -25,6 +25,8 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 * [서자영](https://github.com/jayoungseo) (tjwkdud0423@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
 * [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 * [김성철](https://github.com/SeongCheol-Kim) (sckim219@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
+* [김지희](https://github.com/kjihee) (aszx1220@gmail.com, 학부생)
+* [장예훈](https://github.com/YeHoonJang)(jangyh0420@gmail.com, 학부생)
 
 ## 강의 구성
 ### 1주차: 프로그래밍과 파이썬
@@ -74,7 +76,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Assignment: Baseball Game - 설명영상
 
 ### 7주차: 자료 구조 (Data Structure)
-- 자료구조 개요 (Data Structure) - [강의영상](https://vimeo.com/184667138/d0bc578a12), [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
+- 자료구조 개요 (Data Structure) - [강의영상](https://vimeo.com/184667138/d0bc578a12), [강의자료](https://doc.co/zfqdQX/EFk5T6)
 - Stack & Queue - [강의영상](https://vimeo.com/184667140/f24a69f788), [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
 - Tuple & Set (Data Structure) - [강의영상](https://vimeo.com/184666895/851e1fcc9d), [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
 - 사전 (Dictionary) - [강의영상](https://vimeo.com/184666894/4c98409e18), [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
