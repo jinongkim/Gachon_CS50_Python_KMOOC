@@ -26,6 +26,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 * [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 * [김성철](https://github.com/SeongCheol-Kim) (sckim219@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 * [김지희](https://github.com/kjihee) (aszx1220@gmail.com, 학부생)
+* [김윤진](https://github.com/KimyoonJIn)(soosg0822@naver.com, 학부생)
 * [장예훈](https://github.com/YeHoonJang)(jangyh0420@gmail.com, 학부생)
 
 ## 강의 구성
