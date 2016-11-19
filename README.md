@@ -19,10 +19,10 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 * Email: teamlab.gachon@gmail.com
 
 ## Teacher Assistnat
-* [이현주](https://github.com/hyoenju) (l67378810@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
-* [장시온](https://github.com/janguck) (wayterren@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
 * [김진홍](https://github.com/jinongkim) (xox8498@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
 * [서자영](https://github.com/jayoungseo) (tjwkdud0423@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
+* [이현주](https://github.com/hyoenju) (l67378810@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
+* [장시온](https://github.com/janguck) (wayterren@gmail.com, 학부생연구원 at [@TeamLab](https://github.com/TeamLab))
 * [리세리](https://github.com/seriLucute) (asdd565seri@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 * [김성철](https://github.com/SeongCheol-Kim) (sckim219@gmail.com, 학부생 인턴연구원 at [@TeamLab](https://github.com/TeamLab))
 * [김지희](https://github.com/kjihee) (aszx1220@gmail.com, 학부생)
