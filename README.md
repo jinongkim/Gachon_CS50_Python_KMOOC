@@ -118,13 +118,13 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Web 이해하기 - [강의영상](https://vimeo.com/191340154/d3522d205f), [강의자료](https://doc.co/WuDBwm/EFk5T6)
 - HTML 데이터 다루기 - [강의영상](https://vimeo.com/191340157/a0d1bd9d93), [강의자료](https://doc.co/5DcmMo/EFk5T6)
 - 정규 표현식: Regular Expression - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), [강의자료](https://doc.co/5DcmMo/EFk5T6)
-- Lab: RegEx - 강의영상, [강의자료](https://doc.co/xzfPXz/eRCeqh), [강의자료]()
+- Lab: RegEx - 강의영상, [강의자료](https://doc.co/xzfPXz/eRCeqh)
 
 ### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
 - XML 이해하기 - [강의영상](https://vimeo.com/192626983/de209d3c6e), [강의자료](https://doc.co/XqDhAr/EFk5T6)
 - Lab: USA Patent Data Analysis - [강의영상](https://vimeo.com/192627250/8e3d827ef1), [강의자료](https://doc.co/xbHGTf/eRCeqh)
-- JSON 이해하기 - 강의영상, [강의자료](https://doc.co/o91YzD/EFk5T6)
-- Lab: JSON Data Analysis - 강의영상, [강의자료](https://doc.co/zxFwy2/eRCeqh)
+- JSON 이해하기 - [강의영상](https://vimeo.com/193012159/54c563ddd7), [강의자료](https://doc.co/o91YzD/EFk5T6)
+- Lab: JSON Data Analysis - [강의영상](https://vimeo.com/193018697), [강의자료](https://doc.co/zxFwy2/eRCeqh)
 
 ### 15차: What is NEXT?
 - Warp Up, Pyhton!- [강의영상](https://vimeo.com/192626817/291f0b4310), 강의자료
