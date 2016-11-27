@@ -127,7 +127,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Lab: JSON Data Analysis - [강의영상](https://vimeo.com/193018697), [강의자료](https://doc.co/zxFwy2/eRCeqh)
 
 ### 15차: What is NEXT?
-- Warp Up, Pyhton!- [강의영상](https://vimeo.com/192626817/291f0b4310), 강의자료
+- Warp Up, Pyhton!- [강의영상](https://vimeo.com/192626817/291f0b4310), [강의자료](https://doc.co/UPeD8r/EFk5T6)
 - Final Term Problem Set
 
 ## 참고자료
