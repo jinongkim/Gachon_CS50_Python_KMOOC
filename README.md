@@ -94,7 +94,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
 - Objective-Oriented Programming Overview - [강의영상](https://vimeo.com/192459194/bf6f7a99c8), [강의자료](https://doc.co/yXcRGm/EFk5T6)
 - Objects in Python - [강의영상](https://vimeo.com/192459183/81f98196fa), [강의자료](https://doc.co/U1782r/EFk5T6)
-- Lab: Note and Notebook - [강의영상](https://vimeo.com/192627174/5f3de78943), [강의자료](https://doc.co/DXWqj5/eRCeqh)
+- Lab: Note and Notebook - [강의영상](https://vimeo.com/192627174/5f3de78943), [강의자료](https://doc.co/woa22W/EFk5T6)
 - OOP characteristics - [강의영상](https://vimeo.com/192459205/330e424b9f), [강의자료](https://doc.co/bFqNQT/EFk5T6)
 
 ### 10주차: 모듈과 패키지 (Module & Packages)
