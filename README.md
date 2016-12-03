@@ -31,77 +31,77 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 
 ## 강의 구성
 ### 1주차: 프로그래밍과 파이썬
-- 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://vimeo.com/180827149/7f7b2664ee), [강의자료](https://doc.co/Bj76p1/EFk5T6)
-- 파이썬 소개 - [강의영상](https://vimeo.com/180852228/2312dc69e9), [강의자료](https://doc.co/pypHHp/EFk5T6)
-- 파이썬 개발환경 개요 - [강의영상](https://vimeo.com/180852285/be157fe954), [강의자료](https://docs.com/choi-sungchul/2824/week-1-3?c=EFk5T6)
+- 왜 우리는 프로그래밍을 배우는가? - [강의영상](https://www.youtube.com/watch?v=LAnn5cxG13M&index=1&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/Bj76p1/EFk5T6)
+- 파이썬 소개 - [강의영상](https://www.youtube.com/watch?v=RpnSfbXThI0&t=534s&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=2), [강의자료](https://doc.co/pypHHp/EFk5T6)
+- 파이썬 개발환경 개요 - [강의영상](https://www.youtube.com/watch?v=kBPKUSujrws&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=3), [강의자료](https://docs.com/choi-sungchul/2824/week-1-3?c=EFk5T6)
 - Lab: 파이썬 인터프리터 설치
-    - Miniconda on Windows - 설치문서, [강의영상](https://vimeo.com/184094537/5097c0366b)
-    - Miniconda on Ubuntu - 설치문서, [강의영상](https://vimeo.com/185762279/3129ce4b7e)
-    - Miniconda on Mac OS - 설치문서, [강의영상](https://vimeo.com/188925744/4f6b0af41a)
+    - Miniconda on Windows - [강의영상](https://www.youtube.com/watch?v=OMuHLDvmQl4&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=4)
+    - Miniconda on Ubuntu - [강의영상](https://www.youtube.com/watch?v=kKoYbDWvHdo&index=5&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
+    - Miniconda on Mac OS - [강의영상](https://www.youtube.com/watch?v=WsQ-4QDQxAQ&index=6&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
 - Lab: Atom 에디터 설치
-    - Atom on Windows - [설치문서](desc/atom_windows.md), [강의영상](https://vimeo.com/184094536/9dfa58639b)
-    - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), [강의영상](https://vimeo.com/185762281/7cb71ed926)
-    - Atom on Mac OS - [설치문서](desc/atom_macos.md), [강의영상](https://vimeo.com/188925743/0b43afe88e)
+    - Atom on Windows - [설치문서](desc/atom_windows.md), [강의영상](https://www.youtube.com/watch?v=8Z6_JSvKux0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=7)
+    - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), [강의영상](https://www.youtube.com/watch?v=Ir88SOIGVcc&index=8&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
+    - Atom on Mac OS - [설치문서](desc/atom_macos.md), [강의영상](https://www.youtube.com/watch?v=XYvP4NeFo0Y&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=9)
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
-- 메모리와 변수 - [강의영상](https://vimeo.com/180852404/a1599a7f21), [강의자료](https://docs.com/choi-sungchul/8017/week-2-1?c=EFk5T6)
-- 기본 자료형과 연산 - [강의영상](https://vimeo.com/180852405/34826fa1a8), [강의자료](https://docs.com/choi-sungchul/7044/week-2-2?c=EFk5T6)
-- 자료형 변환 - [강의영상](https://vimeo.com/180852406/de9e4d59fd), [강의자료](https://docs.com/choi-sungchul/3473/week-2-3?c=EFk5T6)
+- 메모리와 변수 - [강의영상](https://www.youtube.com/watch?v=emWwGHBfz70&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=10), [강의자료](https://docs.com/choi-sungchul/8017/week-2-1?c=EFk5T6)
+- 기본 자료형과 연산 - [강의영상](https://www.youtube.com/watch?v=K_D-FiyiB1s&index=11&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/7044/week-2-2?c=EFk5T6)
+- 자료형 변환 - [강의영상](https://www.youtube.com/watch?v=6zwQaY00G70&index=12&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/3473/week-2-3?c=EFk5T6)
 - Lab: 숙제 제출 방법 - 강의자료, 강의영상
 - Code Assignment: Arithmetic - 강의영상, 강의자료
 - Code Assignment: Basic Operations - 강의영상, 강의자료
 
 ### 3주차: 화면 입출력과 리스트 다루기 (Console & List Data Type)
-- Console 다루기 - [강의영상](https://vimeo.com/184666839/0ab7ac4231), [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
-- Lab: 화씨 변환기 (Fahrenheit Converter) - [강의영상](https://vimeo.com/187526293/7c74d3fbdf), [강의자료](https://doc.co/mjke6x/EFk5T6)
-- List Data Type - [강의영상](https://vimeo.com/181621956/ecbb4d0a26), [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
+- Console 다루기 - [강의영상](https://www.youtube.com/watch?v=MJvx5m6xlBo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=13), [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
+- Lab: 화씨 변환기 (Fahrenheit Converter) - [강의영상](https://www.youtube.com/watch?v=1izwqD7SSHk&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=14), [강의자료](https://doc.co/mjke6x/EFk5T6)
+- List Data Type - [강의영상](https://www.youtube.com/watch?v=lYxlnxKYsLI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=15), [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
 - Code Assignment:
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
-- Condition - [강의영상](https://vimeo.com/180864670/d591d1c767), [강의자료](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
-- Lab: 당신은 무슨 학교 다니세요? - [강의영상](https://vimeo.com/190998764/3bb4326bf6), [강의자료](https://doc.co/ukigBi/EFk5T6)
-- Loop - [강의영상](https://vimeo.com/180864932/bb37df35bc), [강의자료](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
-- Lab: 구구단 계산기 - [강의영상](https://vimeo.com/191266761/dc7c8ea0c8), [강의자료](https://doc.co/j8LVwB/EFk5T6)
-- Lab: Condition and Loop - [강의영상#1](https://vimeo.com/190999848/f94adc194d), [강의영상#2](https://vimeo.com/190999850/ced71cc7b7), [강의영상#3](https://vimeo.com/191886470/d467fb1d10), [강의자료](https://doc.co/TXJguB/EFk5T6)
-- How to debug code - [강의영상](https://vimeo.com/191268028/f459075015), [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
+- Condition - [강의영상](https://www.youtube.com/watch?v=aE7grvgYGc4&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=16), [강의자료](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
+- Lab: 당신은 무슨 학교 다니세요? - [강의영상](https://www.youtube.com/watch?v=TSXRtujpsg0&index=17&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/ukigBi/EFk5T6)
+- Loop - [강의영상](https://www.youtube.com/watch?v=WJVzJx-ake8&index=18&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
+- Lab: 구구단 계산기 - [강의영상](https://www.youtube.com/watch?v=MC-QHhxOK9U&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [강의자료](https://doc.co/j8LVwB/EFk5T6)
+- Lab: Condition and Loop - [강의영상#1](https://www.youtube.com/watch?v=nPWy_nWnYyg&index=20&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의영상#2](https://www.youtube.com/watch?v=tuKcI9cu1lo&index=21&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의영상#3](https://www.youtube.com/watch?v=78bnSeQ9SKA&index=22&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/TXJguB/EFk5T6)
+- How to debug code - [강의영상](https://www.youtube.com/watch?v=LR8XY2HoH28&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
 
 ### 5주차: 함수와 파이썬 코드 작성연습
-- Function Concept I - [강의영상](https://vimeo.com/181367144/710c7fc6e2), [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
-- Function Concept II - [강의영상](https://vimeo.com/181622471/3f1bbf8479), [강의자료](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
-- 코딩 컨벤션과 함수 작성법 - [강의영상](https://vimeo.com/181622470/56a56d3af5), [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
+- Function Concept I - [강의영상](https://www.youtube.com/watch?v=8ftOYKWcul0&index=24&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
+- Function Concept II - [강의영상](https://www.youtube.com/watch?v=JwoQRp3QLVQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=25), [강의자료](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
+- 코딩 컨벤션과 함수 작성법 - [강의영상](https://www.youtube.com/watch?v=K5m-QxQB4og&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=26), [강의자료](https://docs.com/choi-sungchul/4133?c=EFk5T6)
 - Code Assignment:
 
 ### 6주차: 문자열 다루기 (String)
-- 문자열 다루기 (String) - [강의영상](https://vimeo.com/180852569/fdd8a6c1ce), 강의자료
-- Lab: Yesterday Letter Counter - [강의영상](https://vimeo.com/187444064/82bd019692), [강의자료](https://doc.co/xtswPq/EFk5T6)
+- 문자열 다루기 (String) - [강의영상](https://www.youtube.com/watch?v=6-VUeVlorWU&index=27&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/Y4h7dX/EFk5T6)
+- Lab: Yesterday Letter Counter - [강의영상](https://www.youtube.com/watch?v=t2ESp11CRmI&index=28&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/xtswPq/EFk5T6)
 - Assignment: Baseball Game - 설명영상
 
 ### 7주차: 자료 구조 (Data Structure)
-- 자료구조 개요 (Data Structure) - [강의영상](https://vimeo.com/184667138/d0bc578a12), [강의자료](https://doc.co/zfqdQX/EFk5T6)
-- Stack & Queue - [강의영상](https://vimeo.com/184667140/f24a69f788), [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
-- Tuple & Set (Data Structure) - [강의영상](https://vimeo.com/184666895/851e1fcc9d), [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
-- 사전 (Dictionary) - [강의영상](https://vimeo.com/184666894/4c98409e18), [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
-- Lab: Command Counter - [강의영상](https://vimeo.com/187525790/1e8eef5dde), [강의자료](https://doc.co/v5vBq6/EFk5T6)
+- 자료구조 개요 (Data Structure) - [강의영상](https://www.youtube.com/watch?v=G0RamGs1jqQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=29), [강의자료](https://doc.co/zfqdQX/EFk5T6)
+- Stack & Queue - [강의영상](https://www.youtube.com/watch?v=xs7uMu3bo8w&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=30), [강의자료](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
+- Tuple & Set (Data Structure) - [강의영상](https://www.youtube.com/watch?v=7u7rhQ1tQDY&index=31&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
+- 사전 (Dictionary) - [강의영상](https://www.youtube.com/watch?v=HqFtXMZSGSI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=32), [강의자료](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
+- Lab: Command Counter - [강의영상](https://www.youtube.com/watch?v=gq09kwm5OMc&index=33&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/v5vBq6/EFk5T6)
 
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
-- Pythonic Code Overview - [강의영상](https://vimeo.com/181268018/94c984f18c), [강의자료](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
-- Split & Join - [강의영상](https://vimeo.com/181268017/12e9971bb3), [강의자료](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
-- List Comprehension - [강의영상](https://vimeo.com/181268020/61e13aa55d), [강의자료](https://docs.com/choi-sungchul/7934/week-8-3-list-comprehension?c=EFk5T6)
-- Enumerate & Zip - [강의영상](https://vimeo.com/181268019/37892a022d), [강의자료](https://docs.com/choi-sungchul/5388/week-8-4-enumerate-zip?c=EFk5T6)
+- Pythonic Code Overview - [강의영상](https://www.youtube.com/watch?v=uIcxHkapM7c&index=34&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=4s), [강의자료](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
+- Split & Join - [강의영상](https://www.youtube.com/watch?v=RnzoIgPmdng&index=35&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=14s), [강의자료](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
+- List Comprehension - [강의영상](https://www.youtube.com/watch?v=AWAISEXNPPI&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=73s), [강의자료](https://docs.com/choi-sungchul/7934/week-8-3-list-comprehension?c=EFk5T6)
+- Enumerate & Zip - [강의영상](https://www.youtube.com/watch?v=xXaMXh1k5FY&index=37&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=610s), [강의자료](https://docs.com/choi-sungchul/5388/week-8-4-enumerate-zip?c=EFk5T6)
 - Assignment: Morse Code - 설명영상
 - Midterm Problem Set
 
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
-- Objective-Oriented Programming Overview - [강의영상](https://vimeo.com/192459194/bf6f7a99c8), [강의자료](https://doc.co/yXcRGm/EFk5T6)
-- Objects in Python - [강의영상](https://vimeo.com/192459183/81f98196fa), [강의자료](https://doc.co/U1782r/EFk5T6)
-- Lab: Note and Notebook - [강의영상](https://vimeo.com/192627174/5f3de78943), [강의자료](https://doc.co/woa22W/EFk5T6)
-- OOP characteristics - [강의영상](https://vimeo.com/192459205/330e424b9f), [강의자료](https://doc.co/bFqNQT/EFk5T6)
+- Objective-Oriented Programming Overview - [강의영상](https://www.youtube.com/watch?v=fi8TGRfDXU0&t=2s&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=49), [강의자료](https://doc.co/yXcRGm/EFk5T6)
+- Objects in Python - [강의영상](https://www.youtube.com/watch?v=cXNV45sx_iY&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39), [강의자료](https://doc.co/U1782r/EFk5T6)
+- Lab: Note and Notebook - [강의영상](https://www.youtube.com/watch?v=8Q9N8E0RpDg&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=52), [강의자료](https://doc.co/woa22W/EFk5T6)
+- OOP characteristics - [강의영상](https://www.youtube.com/watch?v=s2NOU8vMMDU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=53), [강의자료](https://doc.co/bFqNQT/EFk5T6)
 
 ### 10주차: 모듈과 패키지 (Module & Packages)
-- Overview - [강의영상](https://vimeo.com/191267097/94ed2ec64f), [강의자료](https://doc.co/uJ7H6L/EFk5T6)
-- Modules - [강의영상](https://vimeo.com/191268214/f510344b5b), [강의자료](https://doc.co/qNxUN1/EFk5T6)
-- Packages - [강의영상](https://vimeo.com/191268215/317f23b363), [강의자료](https://doc.co/hXxeLm/EFk5T6)
-- 가상환경과 Package 활용하기 - [강의영상](https://vimeo.com/191484536/959538efe4), [강의자료](https://doc.co/SoCj3W/EFk5T6)
+- Overview - [강의영상](https://www.youtube.com/watch?v=iV_1dal69Xc&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=50), [강의자료](https://doc.co/uJ7H6L/EFk5T6)
+- Modules - [강의영상](https://www.youtube.com/watch?v=vJ3kEhB_ERE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [강의자료](https://doc.co/qNxUN1/EFk5T6)
+- Packages - [강의영상](https://www.youtube.com/watch?v=nWAomgvxihg&index=42&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://doc.co/hXxeLm/EFk5T6)
+- 가상환경과 Package 활용하기 - [강의영상](https://www.youtube.com/watch?v=QLF5UvUvKCo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [강의자료](https://doc.co/SoCj3W/EFk5T6)
 
 ### 11주차: 예외 처리 (Exception Handling)
 - Overview - [강의영상](https://vimeo.com/191340392/a341678aa6), [강의자료](https://doc.co/hyRaci/EFk5T6)
