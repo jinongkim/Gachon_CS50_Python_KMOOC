@@ -118,7 +118,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - Web 이해하기 - [강의영상](https://vimeo.com/191340154/d3522d205f), [강의자료](https://doc.co/WuDBwm/EFk5T6)
 - HTML 데이터 다루기 - [강의영상](https://vimeo.com/191340157/a0d1bd9d93), [강의자료](https://doc.co/5DcmMo/EFk5T6)
 - 정규 표현식: Regular Expression - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), [강의자료](https://doc.co/5DcmMo/EFk5T6)
-- Lab: RegEx - 강의영상, [강의자료](https://doc.co/xzfPXz/eRCeqh)
+- Lab: RegEx - [강의영상](https://vimeo.com/194150654/1fca9f20aa), [강의자료](https://doc.co/xzfPXz/eRCeqh)
 
 ### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
 - XML 이해하기 - [강의영상](https://vimeo.com/192626983/de209d3c6e), [강의자료](https://doc.co/XqDhAr/EFk5T6)
