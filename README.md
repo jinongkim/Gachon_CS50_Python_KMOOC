@@ -124,7 +124,7 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - XML 이해하기 - [강의영상](https://vimeo.com/192626983/de209d3c6e), [강의자료](https://doc.co/XqDhAr/EFk5T6)
 - Lab: USA Patent Data Analysis - [강의영상](https://vimeo.com/192627250/8e3d827ef1), [강의자료](https://doc.co/xbHGTf/eRCeqh)
 - JSON 이해하기 - [강의영상](https://vimeo.com/193012159/54c563ddd7), [강의자료](https://doc.co/o91YzD/EFk5T6)
-- Lab: JSON Data Analysis - [강의영상](https://vimeo.com/193018697), [강의자료](https://doc.co/zxFwy2/eRCeqh)
+- Lab: JSON Data Analysis - [강의영상](https://vimeo.com/193018697/a2dd757331), [강의자료](https://doc.co/zxFwy2/eRCeqh)
 
 ### 15차: What is NEXT?
 - Warp Up, Pyhton!- [강의영상](https://vimeo.com/192626817/291f0b4310), [강의자료](https://doc.co/UPeD8r/EFk5T6)
