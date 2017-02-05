@@ -104,30 +104,30 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
 - 가상환경과 Package 활용하기 - [강의영상](https://www.youtube.com/watch?v=QLF5UvUvKCo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [강의자료](https://doc.co/SoCj3W/EFk5T6)
 
 ### 11주차: 예외 처리 (Exception Handling)
-- Overview - [강의영상](https://vimeo.com/191340392/a341678aa6), [강의자료](https://doc.co/hyRaci/EFk5T6)
-- Exception Handling - [강의영상](https://vimeo.com/191344605/afa6b18247), [강의자료](https://doc.co/oyGK7M/EFk5T6)
+- Overview - [강의영상](https://www.youtube.com/watch?v=Q17PEpSyv_s&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=24s&index=47), [강의자료](https://doc.co/hyRaci/EFk5T6)
+- Exception Handling - [강의영상](https://www.youtube.com/watch?v=dTj3FxYt7ic&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=83s&index=48), [강의자료](https://doc.co/oyGK7M/EFk5T6)
 - Lab: - 강의영상, 강의자료
 
 ### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
-- File Handling Overview - [강의영상](https://vimeo.com/191273680/92e675c6b4), [강의자료](https://doc.co/5XWkVi/EFk5T6)
-- File Handling - [강의영상](https://vimeo.com/191341638/bca983a4ff), [강의자료](https://doc.co/hYt3mx/EFk5T6)
-- Comma Separate Values  - [강의영상](https://vimeo.com/191590754/6bedf29084), [강의자료](https://doc.co/1PDdBj/EFk5T6)
+- File Handling Overview - [강의영상](https://www.youtube.com/watch?v=0qV-5-X7YS0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=15s&index=49), [강의자료](https://doc.co/5XWkVi/EFk5T6)
+- File Handling - [강의영상](https://www.youtube.com/watch?v=kJnew-Dl8K0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=228s&index=50), [강의자료](https://doc.co/hYt3mx/EFk5T6)
+- Comma Separate Values  - [강의영상](https://www.youtube.com/watch?v=2c8FzbCPu3Y&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=58s&index=51), [강의자료](https://doc.co/1PDdBj/EFk5T6)
 - Lab: CSV with Pandas - 강의영상, 강의자료
 
 ### 13주차: Web Scraping
-- Web 이해하기 - [강의영상](https://vimeo.com/191340154/d3522d205f), [강의자료](https://doc.co/WuDBwm/EFk5T6)
-- HTML 데이터 다루기 - [강의영상](https://vimeo.com/191340157/a0d1bd9d93), [강의자료](https://doc.co/5DcmMo/EFk5T6)
-- 정규 표현식: Regular Expression - [강의영상](https://vimeo.com/191340155/38d9dfbbcc), [강의자료](https://doc.co/5DcmMo/EFk5T6)
-- Lab: RegEx - [강의영상](https://vimeo.com/194150654/1fca9f20aa), [강의자료](https://doc.co/xzfPXz/eRCeqh)
+- Web 이해하기 - [강의영상](https://www.youtube.com/watch?v=l-2wn6jrezc&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=52), [강의자료](https://doc.co/WuDBwm/EFk5T6)
+- HTML 데이터 다루기 - [강의영상](https://www.youtube.com/watch?v=B0kmDCSJqZU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=15s&index=53), [강의자료](https://doc.co/5a8MVr/EFk5T6)
+- 정규 표현식: Regular Expression - [강의영상](https://www.youtube.com/watch?v=Qg8ayprxoFQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=54), [강의자료](https://doc.co/5DcmMo/EFk5T6)
+- Lab: RegEx - [강의영상](https://www.youtube.com/watch?v=x1RGQGlYaO8&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=55), [강의자료](https://doc.co/xzfPXz/eRCeqh)
 
 ### 14주차: XML과 JSON (eXtensible Markup Languages and JSON)
-- XML 이해하기 - [강의영상](https://vimeo.com/192626983/de209d3c6e), [강의자료](https://doc.co/XqDhAr/EFk5T6)
-- Lab: XML Parsing- [강의영상](https://vimeo.com/192627250/8e3d827ef1), [강의자료](https://doc.co/xbHGTf/eRCeqh)
-- JSON 이해하기 - [강의영상](https://vimeo.com/193012159/54c563ddd7), [강의자료](https://doc.co/o91YzD/EFk5T6)
-- Lab: JSON Data Analysis - [강의영상](https://vimeo.com/193018697/a2dd757331), [강의자료](https://doc.co/zxFwy2/eRCeqh)
+- XML 이해하기 - [강의영상](https://www.youtube.com/watch?v=nSuCKVCS0sY&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=56), [강의자료](https://doc.co/XqDhAr/EFk5T6)
+- Lab: XML Parsing- [강의영상](https://www.youtube.com/watch?v=1EFTxaHFzo4&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=57), [강의자료](https://doc.co/xbHGTf/eRCeqh)
+- JSON 이해하기 - [강의영상](https://www.youtube.com/watch?v=V-M0mr3DPrY&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=58), [강의자료](https://doc.co/o91YzD/EFk5T6)
+- Lab: JSON Data Analysis - [강의영상](https://www.youtube.com/watch?v=BMEF3ypLYuU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=59), [강의자료](https://doc.co/zxFwy2/eRCeqh)
 
 ### 15차: What is NEXT?
-- Wrap Up, Pyhton!- [강의영상](https://vimeo.com/192626817/291f0b4310), [강의자료](https://doc.co/UPeD8r/EFk5T6)
+- Wrap Up, Pyhton!- [강의영상](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [강의자료](https://doc.co/UPeD8r/EFk5T6)
 - Final Term Problem Set
 
 ## 참고자료
