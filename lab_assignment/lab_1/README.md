@@ -102,7 +102,7 @@ None
 ##### 제대로 수정되었는지를 확인하기 위해서는 수정된 프로그램을 실행시켜 봅니다.  
 1. <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd>를 누르고 cmd 입력 후 확인을 클릭합니다.
 2. 아까 작업폴더로 이동한 경로로 이동을 합니다.
-3. `python3.4 arithmetic_function.py` 입력합니다
+3. `python arithmetic_function.py` 입력합니다
 
 이때 실행되는 코드는 `main()` 함수안에 있는 아래 코드입니다. 
 
