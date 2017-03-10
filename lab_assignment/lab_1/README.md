@@ -3,26 +3,28 @@ Lab #1 - arithmetic_function 숙제 제출 연습하기
 Copyright 2017 © document created by teamLab.gachon@gmail.com
 
 ## Introduction
-K-MOOC Python과 Gachon CS50 에서는 모든 숙제를 TeamLab에서 개발된 자동 채점 시스템(Gachon Autograder)를 통해 제출하게 됩니다. 
-
-본 실습에서는 자동 채점 시스템을 사용하여 숙제를 제출하는 과정을 연습합니다. 
-
-아직 파이썬의 주요 내용을 배우지 않은 상태이기 때문에 매우 간단한 사칙연산 코드를 작성합니다.
+K-MOOC Python과 Gachon CS50에서는 모든 숙제를 TeamLab에서 개발된 자동 채점 시스템(Gachon Autograder)를 통해 제출하게 됩니다.  본 실습에서는 자동 채점 시스템을 사용하여 숙제를 제출하는 과정을 연습합니다.  아직 파이썬의 주요 내용을 배우지 않은 상태이기 때문에 매우 간단한 사칙연산 코드를 작성합니다.
 
 ## Lab Assignment 진행을 위한 lab_1.zip 다운로드
 첫 번째 할일을 숙제 제출과 숙제 진행이 압축된 파일인 "lab_1.zip"을 다운로드하는 것 입니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
-- https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1 
 
-다운로드를 위해 `View Raw` 또는 `Download` 버튼을 클릭합니다. 또는 아래 다운로드 링크를 클릭하면 자동으로 다운로드가 됩니다.
-- [Lab 1 - 다운로드](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_1/lab_1.zip)
+https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1 
+
+다운로드를 위해 `View Raw` 또는 `Download` 버튼을 클릭합니다. 또는 아래 다운로드 링크를 클릭하면 자동으로 다운로드가 됩니다. [Lab 1 - 다운로드](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_1/lab_1.zip)
 
 일반적으로 다운로드 된 파일은 사용자 폴더내 "다운로드" 폴더로 이동하게 됩니다. 
 
 <kbd>windows</kbd><sup id="windows"></sup>+<kbd>e</kbd>를 누르면 일반적으로 왼쪽 상단에 나타나는 "다운로드" 폴더에 다운로드 된 `lab_1.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
-
 ## arithmetic_function.py 내용 보기
-다음으로 압축해제 된 `arithmetic_function.py` 파일의 구조를 파악해 봅니다. 구조 파악을 위해서는 atom으로 해당 파일을 열어야 하는데 atom 실행 후 File ->  Open File 을 순서대로 클릭 후 `arithmetic_function.py`을 열기를 누릅니다.
+다음으로 압축해제 된 `arithmetic_function.py` 파일의 구조를 파악해 봅니다. 구조 파악을 위해서는 atom으로 해당 파일을 열어야 하는데 아래의 과정을 거쳐 atom으로 파일을 오픈합니다.
+
+1. <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> 을 누른 후, `cmd`를 입력하여 검은색 화면인 콘솔창을 오픈합니다.
+2. `cd workspace`등을 이용해서 여러분의 작업폴더로 이동합니다.
+3. 작업폴더에는 이미 숙제 압축 파일이 해제되어 있어야 합니다.
+4. `atom .` 명령을 사용하여 atom을 실행시키고, 왼쪽 상단 메뉴트리에서 `arithmetic_function.py` 클릭하여 파일을 오픈합니다.
+5. 어려울 경우, 소개 영상을 다시 봅니다.
+
 모든 숙제 template 파일은 동일하게 아래 세 가지 함수로 나뉘게 됩니다.
 
 분류           | 의미 
@@ -73,7 +75,6 @@ def addition(a, b):
 
 ```bash
 C:<작업경로\lab_1> python
-Python 3.4.0 |Continuum Analytics, Inc.| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import arithmetic_function as af
 >>> result = af.addition(10,5)
