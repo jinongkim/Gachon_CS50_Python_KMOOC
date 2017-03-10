@@ -8,8 +8,8 @@ Gachon CS50 강의에서는 모든 숙제를 TeamLab에서 개발된 자동 채�
 
 ## 숙제 제출과 숙제 진행을 위한 lab_1.zip 다운로드
 첫 번째 할일을 숙제 제출과 숙제 진행이 압축된 파일인 "lab_1.zip"을 다운로드하는 것이다. Chrome의 주소창에 https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1 을 입력하여 lab_1.zip을 클릭하고 Download를 클릭한다.
-
-윈도우 사용자의 경우 일반적으로 다운로드 된 파일은 사용자 폴더내 "다운로드" 폴더로 이동하게 된다. <kbd>windows</kbd><sup id="windows">[3](#f3)</sup>+<kbd>e</kbd>를 누르면 일반적으로 왼쪽 상단에 나타나는 "다운로드" 폴더이므로 폴더에 다운로드 된 `lab_1.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바란다.
+````
+일반적으로 다운로드 된 파일은 사용자 폴더내 "다운로드" 폴더로 이동하게 된다. <kbd>windows</kbd><sup id="windows">[3](#f3)</sup>+<kbd>e</kbd>를 누르면 일반적으로 왼쪽 상단에 나타나는 "다운로드" 폴더이므로 폴더에 다운로드 된 `lab_1.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바란다.
 
 
 ## arithmetic_function.py 내용 보기
@@ -116,7 +116,7 @@ def main():
 python3.4 submit.py
 ```
 
-위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것이다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email주소와 비밀번호를 입력하면. `arithmetic_function.py` 파일이 성공적으로 다운로드 됐다는 메세지를 확인하게 될 것이다.
+위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것이다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email주소와 비밀번호를 입력한다.
 
 ```bash
 == Submmting solutions | arithmetic_function.py
