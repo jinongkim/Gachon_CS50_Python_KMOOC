@@ -6,37 +6,14 @@ Copyright 2015 © document created by TeamLab.Gachon@gmail.com
 ## Introduction
 Gachon CS50 강의에서는 모든 숙제를 TeamLab에서 개발된 자동 채점 시스템(Gachon Autograder)를 통해 제출하게 된다. 본 실습에서는 자동 채점 시스템을 사용하여 숙제를 제출하는 과정을 연습한다. 아직 파이썬의 주요 내용을 배우지 않은 상태이기 때문에 매우 간단한 사칙연산 코드를 작성한다.
 
-## 숙제 제출을 위한 submit_assignment.py 다운로드
-첫 번째 할일을 숙제 제출용 프로그램인 "submit_assignment.py"을 다운로드하는 것이다. Mac OS 또는 CS50 서버를 사용중인 수강생은 아래 코드를 서버에 로그인 한 후 입력하면 숙제 파일이 자동으로 다운로드된다. 주소가 너무 길다고 걱정할 필요가 없다. 마우스를 사용하여 copy&paste를 하면 console<sup id="console">[1](#f1)</sup>창에 붙여넣기가 가능하다<sup id="wget">[2](#f2)</sup>.
+## 숙제 제출과 숙제 진행을 위한 lab_1.zip 다운로드
+첫 번째 할일을 숙제 제출과 숙제 진행이 압축된 파일인 "lab_1.zip"을 다운로드하는 것이다. Chrome의 주소창에 https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1 을 입력하여 lab_1.zip을 클릭하고 Download를 클릭한다.
 
-```bash
-wget https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/submit_assignment.py
-```  
-다운로드 후 `ls submit_assignment.py` 이라고 입력하면 `submit_assignment.py`이라고 출력될 것이다. 윈도우즈 사용자의 경우 다음 링크를 클릭하면 다운로드 된다.
+윈도우 사용자의 경우 일반적으로 다운로드 된 파일은 사용자 폴더내 "다운로드" 폴더로 이동하게 된다. <kbd>windows</kbd><sup id="windows">[3](#f3)</sup>+<kbd>e</kbd>를 누르면 일반적으로 왼쪽 상단에 나타나는 "다운로드" 폴더이므로 폴더에 다운로드 된 `lab_1.zip` 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바란다.
 
-> submit_assignemnt.py <U>[down][1]</U>  
 
-윈도우 사용자의 경우 일반적으로 다운로드 된 파일은 사용자 폴더내 "다운로드" 폴더로 이동하게 된다. <kbd>windows</kbd><sup id="windows">[3](#f3)</sup>+<kbd>e</kbd>를 누르면 일반적으로 왼쪽 상단에 나타나는 "다운로드" 폴더이므로 폴더에 다운로드 된 `submit_assignment.py` 파일을 작업 폴더로 이동한 후 작업하길 바란다.
-
-## 숙제 template 파일 다운로드
-두 번째로 할일은 `submit_assignment.py` 파일로 우리가 숙제를 수행할 template 파일을 다운로드 하는 것이다. template 파일은 숙제 수행시 기본적으로 제공되는  코드 초안을 의미한다. 본 수업에서 사용되는 "Gachon Autograder" 프로그램은 template 파일에서 수강생이 핵심이 되는 부분만 수정하여 제출하면, 자동으로 제출 유무의 확인과 오류를 점검해준다. 
-이를 사용하기 위해서는 먼저 숙제 template 파일을 다운로드해야 한다. 숙제 template 파일을 다운로드 하는 명령어는 `python3.4 submit_assignment.py -get <lab_assignment_name>` 이다. 이미 익숙해 졌겠지만 `python3.4 submit_assignment.py`은 `submit_assignment.py` 프로그램을 파이썬3.4 인터프리터로 실행시키는 것을 의미하며, `-get`은 숙제 template 파일 다운로드를, `<lab_assignment_name>`를 다운로드 대상이 되는 숙제 이름으로 각 숙제마다 바뀌게 된다. 우리는 첫 번째 테스트 숙제로 `arithmetic_function.py` template 파일을 다운로드하여 수정하도록 하겠다. 이를 위한 명령어는 아래와 같다.
-
-```bash
-python3.4 submit_assignment.py -get test
-```  
-
-위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것이다. cs50.gachon.ac.kr 웹 페이지에 가입시 사용했던 email주소와 비밀번호를 입력하면. `arithmetic_function.py` 파일이 성공적으로 다운로드 됐다는 메세지를 확인하게 될 것이다.
-
-```bash
-== Getting templates | test
-Login ID: 
-Password :
-arithmetic_function.py file is created for your test assignment
-Thank you for using the program. Enjoy Your Assignment - From TeamLab
-```    
 ## arithmetic_function.py 내용 보기
-다음으로 다운로드 된 `arithmetic_function.py` 파일의 구조를 파악해 보자. 구조 파악을 위해서는 vi 에디터로 해당 파일을 열어야 하는데 콘솔창에서 `vi arithmetic_function.py`라고 입력하면 수정할 수 있게 된다. 
+다음으로 압축해제 된 `arithmetic_function.py` 파일의 구조를 파악해 보자. 구조 파악을 위해서는 atom으로 해당 파일을 열어야 하는데 atom 실행 후 File ->  Open File 클릭 후 `arithmetic_function.py`을 열기를 누른다.
 모든 숙제 template 파일은 동일하게 아래 세 가지 함수<sup id="function">[4](#f4)로 나뉘게 된다.
 
 분류           | 의미 
@@ -80,9 +57,8 @@ def addition(a, b):
 위 함수에서 `# ===Modify codes below=============` 윗 부분까지가 함수에 대한 간략한 설명이다. `# Input:` 부분은 이 함수에 입력되는 값의 유형에 대해 설명하고, `# Output:` 부분은 이 함수의 결과값에 대해 서술한다. 중요한 부분은 `# Examples:` 이다. 해당 부분 하단에는 이 함수를 실제 수행하였을 때 나올 수 있는 결과 값에 대해서 작성되어 있다. 이를 실제 확인하게 위해서는 파이썬 쉘을 실행 시켜야 한다. 파이썬 쉘은 `python3.4` 라고 치면 나오는 프로그래밍 환경을 의미한다. 파이썬 쉘을 실행후 아래와 `>>>` 이후에 있는 코드를 입력해 보자 
 
 ```bash
-YOUR_ID@cs50:~$ python3.4
-Python 3.4.0 (default, Jun 19 2015, 14:20:21)
-[GCC 4.8.2] on linux
+C:<작업경로\lab_1> python3.4
+Python 3.4.0 |Continuum Analytics, Inc.| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32[GCC 4.8.2] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import arithmetic_function as af
 >>> result = af.addition(10,5)
@@ -131,11 +107,21 @@ def main():
     print (division(10,-3) == 0.33333) # Expected Result: False
     print ("division Test Closed \n")
 ```
-## arithmetic_function.py 제출 하기
-수정이 완료되었을 경우 숙제를 다시 서버에 제출해야 한다. 숙제 제출을 위한 명령어는 아래와 같다.
+
+## 숙제 template 파일 제출하기
+1. <kbd>windows</kbd><sup id="windows">[3](#f3)</sup>+<kbd>r</kbd>를 누르고 cmd 입력 후 확인을 클릭한다.
+2. 아까 작업폴더로 이동한 경로로 이동을 한다.
+3. 밑에 bash창을 입력한다.
+```bash
+python3.4 submit.py
+```
+
+위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것이다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email주소와 비밀번호를 입력하면. `arithmetic_function.py` 파일이 성공적으로 다운로드 됐다는 메세지를 확인하게 될 것이다.
 
 ```bash
-python3.4 submit_assignment.py -submit arithmetic_function.py
+== Submmting solutions | arithmetic_function.py
+Login ID:
+Password :
 ```
 
 본 명령을 실행하여 프로그램의 문법상 에러가 없을 경우, 아래와 같은 형태로 숙제 제출 확인 메세지를 받게된다.
@@ -150,13 +136,9 @@ python3.4 submit_assignment.py -submit arithmetic_function.py
             addition |       PASS |             Good Job
 -------------------- | ---------- | --------------------
 ```
-첫 번째 Lab Assignment인 vimrc 제출을 위해서도 아래와 같이 명령어를 입력하자. vimrc 숙제는 .vimrc의 생성과 필요한 설정들이 제대로 입력되었는지 보기 때문에 특별히 다운로드된 "vimrc_test.py" 파일을 수정할 필요는 없다. 만약 숙제 제출에 오류가 발생했다면, 첫 번째 Lab Assignment 문서를 **정독**<sup id="read">[6](#f6)</sup> 하면서 빼먹은 것이 없는지 확인해 보기 바란다. 참고로 에러가 나왔을 경우 반드시 `vi ~/.vimrc` 명령으로 .vimrc 파일을 수정한 후, `python3.4 vimrc_test.py`와 `python3.4 submit_assignment.py -submit vimrc_test.py` 명령을 순차적으로 입력해야 한다.
 
-```bash
-python3.4 submit_assignment.py -get vimrc
-python3.4 vimrc_test.py
-python3.4 submit_assignment.py -submit vimrc_test.py
-```
+
+
 
 ## Next Work
 두 번째 Lab Assignment를 무사히 마친 것을 축하한다. 아마 지금쯤이면 수업시간에 욕은 못하겠고<sup id="isee">[7](#f7)</sup> 상당히 진이 빠져 있는 상태일 것이다. 아직 우리에게는 12척의 배 대신에 한 개의 assignment가 더 남았다. 물론 집에가도 상관없지만, 지금 집에 간다면 drop을 더 권장한다. 첫 번째 강의 마지막 Assignment로 이동하길 바란다. 할 수 있다. 걱정말자.
