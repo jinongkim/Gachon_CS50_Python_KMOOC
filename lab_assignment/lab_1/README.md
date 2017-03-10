@@ -1,6 +1,7 @@
-Lab #1 - 숙제 제출 연습하기
-===================
-Copyright 2015 © document created by teamLab.gachon@gmail.com
+````
+Lab #2 - 숙제 제출 연습하기
+=======
+Copyright 2015 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
 Gachon CS50 강의에서는 모든 숙제를 TeamLab에서 개발된 자동 채점 시스템(Gachon Autograder)를 통해 제출하게 된다. 본 실습에서는 자동 채점 시스템을 사용하여 숙제를 제출하는 과정을 연습한다. 아직 파이썬의 주요 내용을 배우지 않은 상태이기 때문에 매우 간단한 사칙연산 코드를 작성한다.
@@ -10,20 +11,20 @@ Gachon CS50 강의에서는 모든 숙제를 TeamLab에서 개발된 자동 채�
 
 ```bash
 wget https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/submit_assignment.py
-```
+```  
 다운로드 후 `ls submit_assignment.py` 이라고 입력하면 `submit_assignment.py`이라고 출력될 것이다. 윈도우즈 사용자의 경우 다음 링크를 클릭하면 다운로드 된다.
 
-> submit_assignemnt.py <U>[down][1]</U>
+> submit_assignemnt.py <U>[down][1]</U>  
 
 윈도우 사용자의 경우 일반적으로 다운로드 된 파일은 사용자 폴더내 "다운로드" 폴더로 이동하게 된다. <kbd>windows</kbd><sup id="windows">[3](#f3)</sup>+<kbd>e</kbd>를 누르면 일반적으로 왼쪽 상단에 나타나는 "다운로드" 폴더이므로 폴더에 다운로드 된 `submit_assignment.py` 파일을 작업 폴더로 이동한 후 작업하길 바란다.
 
 ## 숙제 template 파일 다운로드
-두 번째로 할일은 `submit_assignment.py` 파일로 우리가 숙제를 수행할 template 파일을 다운로드 하는 것이다. template 파일은 숙제 수행시 기본적으로 제공되는  코드 초안을 의미한다. 본 수업에서 사용되는 "Gachon Autograder" 프로그램은 template 파일에서 수강생이 핵심이 되는 부분만 수정하여 제출하면, 자동으로 제출 유무의 확인과 오류를 점검해준다.
+두 번째로 할일은 `submit_assignment.py` 파일로 우리가 숙제를 수행할 template 파일을 다운로드 하는 것이다. template 파일은 숙제 수행시 기본적으로 제공되는  코드 초안을 의미한다. 본 수업에서 사용되는 "Gachon Autograder" 프로그램은 template 파일에서 수강생이 핵심이 되는 부분만 수정하여 제출하면, 자동으로 제출 유무의 확인과 오류를 점검해준다. 
 이를 사용하기 위해서는 먼저 숙제 template 파일을 다운로드해야 한다. 숙제 template 파일을 다운로드 하는 명령어는 `python3.4 submit_assignment.py -get <lab_assignment_name>` 이다. 이미 익숙해 졌겠지만 `python3.4 submit_assignment.py`은 `submit_assignment.py` 프로그램을 파이썬3.4 인터프리터로 실행시키는 것을 의미하며, `-get`은 숙제 template 파일 다운로드를, `<lab_assignment_name>`를 다운로드 대상이 되는 숙제 이름으로 각 숙제마다 바뀌게 된다. 우리는 첫 번째 테스트 숙제로 `arithmetic_function.py` template 파일을 다운로드하여 수정하도록 하겠다. 이를 위한 명령어는 아래와 같다.
 
 ```bash
 python3.4 submit_assignment.py -get test
-```
+```  
 
 위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것이다. cs50.gachon.ac.kr 웹 페이지에 가입시 사용했던 email주소와 비밀번호를 입력하면. `arithmetic_function.py` 파일이 성공적으로 다운로드 됐다는 메세지를 확인하게 될 것이다.
 
@@ -33,12 +34,12 @@ Login ID:
 Password :
 arithmetic_function.py file is created for your test assignment
 Thank you for using the program. Enjoy Your Assignment - From TeamLab
-```
+```    
 ## arithmetic_function.py 내용 보기
-다음으로 다운로드 된 `arithmetic_function.py` 파일의 구조를 파악해 보자. 구조 파악을 위해서는 vi 에디터로 해당 파일을 열어야 하는데 콘솔창에서 `vi arithmetic_function.py`라고 입력하면 수정할 수 있게 된다.
+다음으로 다운로드 된 `arithmetic_function.py` 파일의 구조를 파악해 보자. 구조 파악을 위해서는 vi 에디터로 해당 파일을 열어야 하는데 콘솔창에서 `vi arithmetic_function.py`라고 입력하면 수정할 수 있게 된다. 
 모든 숙제 template 파일은 동일하게 아래 세 가지 함수<sup id="function">[4](#f4)로 나뉘게 된다.
 
-분류           | 의미
+분류           | 의미 
 --------       | ---
 test 함수      | 숙제를 실제 수행해야 할 함수로, 함수내에 `Modify codes below` 라는 문구가 작성되어 있음,  사용자는 해당 문구내 부분을 수정하여야 함
 helper 함수    | 숙제 진행을 원활히 돕기 위해 출제자가 작성한 함수, 따로 수정이 필요없는 함수로 수정할 경우, 숙제 제출이 불가능할 수도 있음
@@ -46,10 +47,10 @@ main 함수       | template 제일 하단에 있는 숙제 test용 코드로 `d
 
 `arithmetic_function.py` 의 경우 아래 4가지의 test 함수와 하나의 main 함수로 구성되어 있다.
 
-- addition(a, b) - a,b 두 개의 숫자가 입력될 경우 두 수의 합을 반환함
+- addition(a, b) - a,b 두 개의 숫자가 입력될 경우 두 수의 합을 반환함 
 - minus(a, b) - a,b 두 개의 숫자가 입력될 경우 a에서 b를 뺀 값을 반환함
 - multiplication(a, b) - a,b 두 개의 숫자가 입력될 경우 두 수의 곱을 반환함
-- division(a, b) - a,b 두 개의 숫자가 입력될 경우 b로 a를 나눈 값을 반환함
+- division(a, b) - a,b 두 개의 숫자가 입력될 경우 b로 a를 나눈 값을 반환함 
 
 addition 함수의 경우, 아래와 같이 작성되어 있다.
 ```python
@@ -74,9 +75,9 @@ def addition(a, b):
     # ==================================
 
     return result
-```
+```   
 
-위 함수에서 `# ===Modify codes below=============` 윗 부분까지가 함수에 대한 간략한 설명이다. `# Input:` 부분은 이 함수에 입력되는 값의 유형에 대해 설명하고, `# Output:` 부분은 이 함수의 결과값에 대해 서술한다. 중요한 부분은 `# Examples:` 이다. 해당 부분 하단에는 이 함수를 실제 수행하였을 때 나올 수 있는 결과 값에 대해서 작성되어 있다. 이를 실제 확인하게 위해서는 파이썬 쉘을 실행 시켜야 한다. 파이썬 쉘은 `python3.4` 라고 치면 나오는 프로그래밍 환경을 의미한다. 파이썬 쉘을 실행후 아래와 `>>>` 이후에 있는 코드를 입력해 보자
+위 함수에서 `# ===Modify codes below=============` 윗 부분까지가 함수에 대한 간략한 설명이다. `# Input:` 부분은 이 함수에 입력되는 값의 유형에 대해 설명하고, `# Output:` 부분은 이 함수의 결과값에 대해 서술한다. 중요한 부분은 `# Examples:` 이다. 해당 부분 하단에는 이 함수를 실제 수행하였을 때 나올 수 있는 결과 값에 대해서 작성되어 있다. 이를 실제 확인하게 위해서는 파이썬 쉘을 실행 시켜야 한다. 파이썬 쉘은 `python3.4` 라고 치면 나오는 프로그래밍 환경을 의미한다. 파이썬 쉘을 실행후 아래와 `>>>` 이후에 있는 코드를 입력해 보자 
 
 ```bash
 YOUR_ID@cs50:~$ python3.4
@@ -89,7 +90,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 None
 ```
 
-첫 번째 `import` 문은 작성된 프로그램을 호출하는 명령어이다. 우리가 현재 작성한 프로그램 파일이름은 "arithmetic_function.py"로 여기서 확장자인 .py를 제외하고 입력한다. 뒤에 붙은 `as af` 의미는 `arithmetic_function`을 `af`라는 이름으로 부르겠다는 의미이다. 두 번째 코드는 `arithmetic_function` 코드에 있는 `addition` 이라는 함수를 부른다는 의미이다. 해당 함수는 입력 값으로 a와 b를 받아야 되는데 여기서는 a와 b과 각각 10과 5로 매칭된다. `result = af.addition(10,5)`함수의 결과값이 `result`라는 이름의 변수로 저장된 다는 의미이다. 마지막 코드는 `result`의 결과를 출력하라는 뜻이다. 현재까지 코드를 수정된 것이 없기 때문에 현재 결과 값은 `None`으로 설정되어 있다.
+첫 번째 `import` 문은 작성된 프로그램을 호출하는 명령어이다. 우리가 현재 작성한 프로그램 파일이름은 "arithmetic_function.py"로 여기서 확장자인 .py를 제외하고 입력한다. 뒤에 붙은 `as af` 의미는 `arithmetic_function`을 `af`라는 이름으로 부르겠다는 의미이다. 두 번째 코드는 `arithmetic_function` 코드에 있는 `addition` 이라는 함수를 부른다는 의미이다. 해당 함수는 입력 값으로 a와 b를 받아야 되는데 여기서는 a와 b과 각각 10과 5로 매칭된다. `result = af.addition(10,5)`함수의 결과값이 `result`라는 이름의 변수로 저장된 다는 의미이다. 마지막 코드는 `result`의 결과를 출력하라는 뜻이다. 현재까지 코드를 수정된 것이 없기 때문에 현재 결과 값은 `None`으로 설정되어 있다.  
 
 ## arithmetic_function.py 수정 하기
 실제 수강자가 고쳐야할 부분은 아래 코드 부분이다. 본 함수의 목적이 입력된 두 값의 덧셈이므로 `result = None`을 `result = a+b`로 수정해 주면 된다. 나머지 함수들도 각 함수의 목적에 맞게 `result = None`을 부분을 수정해주자.
@@ -179,3 +180,4 @@ python3.4 submit_assignment.py -submit vimrc_test.py
 
 
 [1]: https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/submit_assignment.py
+````
