@@ -6,7 +6,7 @@ Copyright 2017 © document created by teamLab.gachon@gmail.com
 K-MOOC Python과 Gachon CS50에서는 모든 숙제를 TeamLab에서 개발된 자동 채점 시스템(Gachon Autograder)를 통해 제출하게 됩니다.  본 실습에서는 자동 채점 시스템을 사용하여 숙제를 제출하는 과정을 연습합니다.  아직 파이썬의 주요 내용을 배우지 않은 상태이기 때문에 매우 간단한 사칙연산 코드를 작성합니다.
 
 ## Lab Assignment 진행을 위한 lab_1.zip 다운로드
-첫 번째 할일을 숙제 제출과 숙제 진행이 압축된 파일인 "lab_1.zip"을 다운로드하는 것 입니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
+첫 번째 할일을 숙제 제출과 숙제 진행을 위해 숙제파일이 압축된 파일인 "lab_1.zip"을 다운로드하는 것 입니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
 https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1 
 

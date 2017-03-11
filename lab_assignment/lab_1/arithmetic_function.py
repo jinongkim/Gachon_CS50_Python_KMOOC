@@ -1,5 +1,3 @@
-# -*- coding: utf8 -*-
-
 def addition(a, b):
     # '''
     # Input:
@@ -16,7 +14,7 @@ def addition(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = a+b
+    result = None
 
     # ==================================
 
@@ -39,7 +37,7 @@ def minus(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = a-b
+    result = None
 
     # ==================================
 
@@ -62,7 +60,7 @@ def multiplication(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = a*b
+    result = None
 
     # ==================================
 
@@ -85,7 +83,7 @@ def division(a, b):
     # pass
     # ===Modify codes below=============
 
-    result = a/b
+    result = None
 
     # ==================================
 
