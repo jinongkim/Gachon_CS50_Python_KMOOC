@@ -6,10 +6,10 @@
 
 ### 1) 설치 파일 다운받기
   
-####(1) Atom 페이지에서 설치 파일 다운받기 
+#### (1) Atom 페이지에서 설치 파일 다운받기 
 Atom 공식 페이지 [https://atom.io/](https://atom.io/)  메인 화면에서 Download.deb 버튼을 클릭하여 파일을 다운받는다. (리눅스 계열중 레드햇 계열(CentOS, 페도라 등)을 사용 중이라면 Download.rpm 버튼을 눌러 다운받으면 된다.)
 
-![atom 페이지](https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-0/p240x240/13932837_887566181388490_1170369319164798462_n.jpg?oh=638cd5b543902bc0e508d5cee27c8de2&oe=585AA967)
+![atom 페이지](./Atom_ubuntu_img/atom_install_page.jpg)
 
 #### (2) 터미널에서 Atom 설치 파일 다운받기
 
@@ -33,14 +33,14 @@ Atom 공식 페이지 [https://atom.io/](https://atom.io/)  메인 화면에서 
 
 > sudo dpkg -i atom-amd64.deb (파일 이름은 다를 수 있다.)  
 
-![install_atom 터미널](https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/14095868_887566184721823_2124158995982723484_n.jpg?oh=6e4f8fdc638288186f2207d28f4e66d1&oe=58407439)
+![install_atom 터미널](./Atom_ubuntu_img/install_atom.jpg)
 
 ## 2. Atom Editor 에서 Python 코드 실행하기
 
 ### 1) Window 키를 눌러 검색창을 연 후 Atom 파일을 검색하여 Atom Editor를 실행시킨다.
   (런처에 고정을 시키고 싶다면 실행 후 런처에서 오른쪽 버튼을 눌러 "런처에 고정"을 클릭한다. 프로그램을 런처에 고정하면 검색하지 않고도 편하게 Atom Editor 를 실행시킬 수 있다.)
 
-![Atom 파일 찾기](https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/13612321_887566188055156_3152869025741808907_n.jpg?oh=b038bb4d6d8c9a085b885f26d1becc76&oe=58504107)
+![Atom 파일 찾기](./Atom_ubuntu_img/run_atom.jpg)
   
 
 ### 2) Python 실행에 필요한 패키지 설치하기
@@ -52,7 +52,7 @@ Atom 공식 페이지 [https://atom.io/](https://atom.io/)  메인 화면에서 
   
 > __script__
 
-![패키지 설치](https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/14102601_887566244721817_8609756490518512213_n.jpg?oh=a9050dd7251e6e1fcc5d847179301269&oe=585D83F5)
+![패키지 설치](./Atom_ubuntu_img/atom_setting.jpg)
 
 ### 3) Python 코드 실행하기
    
@@ -61,4 +61,4 @@ Atom 공식 페이지 [https://atom.io/](https://atom.io/)  메인 화면에서 
 #### (3) 실행하고 싶은 Python 코드를 작성한다.  (ex. print("hello"))
 #### (4) Ctrl + Shift + b 단축키를 눌러 코드를 실행시킨다.
 
-![코드 실행](https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/14088524_887566248055150_1445585513664848565_n.jpg?oh=9a63252ef26feedb52f17e6d20276581&oe=5840D347)
+![코드 실행](./Atom_ubuntu_img/run_python.jpg)
