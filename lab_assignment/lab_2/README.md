@@ -16,6 +16,7 @@ Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 다운로드 된 lab_2.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
 참고로 이제는 작업환경에 대한 용어에 익숙해 지셔야 합니다. 아래는 우리가 주로 사용하는 작업 환경에 대한 설명입니다.
+
 분류           | 설명 
 --------       | ---
 cmd    | 
