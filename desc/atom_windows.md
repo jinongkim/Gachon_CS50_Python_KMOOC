@@ -44,7 +44,7 @@
 
 ####  3) 만약 script 패키지에서 아래에서 보이는 것과 같은 에러가 난다면 다음 url을 클릭하여 Git을 설치한 다음 2)번과 같은 방법으로 다시 script 패키지를 설치한다. <https://git-scm.com/download/win>
 
-![script_error](./Atom_windows_img/script_error) 
+![script_error](./Atom_windows_img/script_error.jpg) 
 
 
 
