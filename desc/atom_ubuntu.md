@@ -33,7 +33,7 @@ Atom 공식 페이지 [https://atom.io/](https://atom.io/)  메인 화면에서 
 
 > sudo dpkg -i atom-amd64.deb (파일 이름은 다를 수 있다.)  
 
-![install_atom 터미널](./Atom_ubuntu_img/install_atom)
+![install_atom 터미널](./Atom_ubuntu_img/install_atom.jpg)
 
 ## 2. Atom Editor 에서 Python 코드 실행하기
 
