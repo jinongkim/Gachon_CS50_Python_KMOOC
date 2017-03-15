@@ -17,7 +17,7 @@
 
 ####  AtomSetup.exe 파일을 실행하면 아래 이미지가 뜨면서 설치가 시작된다.
 
-![install_atom](./Atom_windows_img/intall_atom.jpg)
+![install_atom](./Atom_windows_img/install_atom.jpg)
 
 
 ####  설치 완료
