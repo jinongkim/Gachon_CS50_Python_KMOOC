@@ -102,7 +102,7 @@ Str_to_float Test Closed
 # 이하 생략
 ```
 
-각 함수를 수정 후 `python3.4 basic_operations.py` 명령어로 다시 실행 시키면 아래와 같은 결과를 볼 수 있을 것입니다.
+각 함수를 수정 후 `python basic_operations.py` 명령어로 다시 실행 시키면 아래와 같은 결과를 볼 수 있을 것입니다.
 ```bash
 Str_to_int Test
 56
