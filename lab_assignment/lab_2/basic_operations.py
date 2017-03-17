@@ -219,29 +219,35 @@ def main():
     print("add_string_number Test")
     print(add_string_number("67", 5))  # Expected Result: "675"
     print(add_string_number("Gachon", 4) == 2)  # Expected Result: False
-    # Expected Result: True
     print("====> ", add_string_number("Gachon", 15) == "Gachon15")
+    # Expected Result: True
     print("add_string_number Test Closed \n")
 
     print("add_string_string Test")
-    print(add_string_string("1.4", "1.5"))  # Expected Result: "1.41.4"
+    print(add_string_string("1.4", "1.5"))  # Expected Result: "1.41.5"
     print(add_string_string("이길", "여") == 15)  # Expected Result: False
-    # Expected Result: False
     print("====> ", add_string_string("이길", "여") == "이길여")
+    # Expected Result: False
     print("add_string_string Test Closed \n")
 
     print("associative_law_add Test")
     print(associative_law_add(3, 5, 4))  # Expected Result: 12
     print(associative_law_add(10, 5, 67) == 15)  # Expected Result: False
-    # Expected Result: False
     print("====> ", associative_law_add(10, 5, 5) == 20)
+    # Expected Result: False
     print("associative_law_add Test iClosed \n")
 
     print("associative_law_mutiple Test")
     print(associative_law_mutiple(3, 5, 2))  # Expected Result: 30
-    # Expected Result: True
     print("====> ", associative_law_mutiple(10, 5, 1) == 50)
+    # Expected Result: True
     print("associative_law_mutiple Test Closed \n")
+
+    print("distributive_law Test")
+    print(distributive_law(6, 7, 3))  # Expected Result: 60
+    print("====> ", distributive_law(2, 4, 1) == 15)
+    # Expected Result: False
+    print("distributive_law Test Closed \n")
 
     print("Exponent Test")
     print(exponent(3, 5))  # Expected Result: 243
