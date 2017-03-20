@@ -42,20 +42,20 @@ K-MOOC: 데이터 과학을 위한 파이썬 입문
     - Atom on Windows - [설치문서](desc/atom_windows.md), [강의영상](https://www.youtube.com/watch?v=8Z6_JSvKux0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=7)
     - Atom on Ubuntu - [설치문서](desc/atom_ubuntu.md), [강의영상](https://www.youtube.com/watch?v=Ir88SOIGVcc&index=8&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
     - Atom on Mac OS - [설치문서](desc/atom_macos.md), [강의영상](https://www.youtube.com/watch?v=XYvP4NeFo0Y&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=9)
+- Code Assignment: Arithmetic - [강의영상](https://www.youtube.com/watch?v=Qoid8G49zHI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=14), [강의자료](http://theteamlab.io/course/1/class/4/)
 
 ### 2주차: 메모리와 변수 (Memory & Variable)
 - 메모리와 변수 - [강의영상](https://www.youtube.com/watch?v=emWwGHBfz70&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=10), [강의자료](https://docs.com/choi-sungchul/8017/week-2-1?c=EFk5T6)
 - 기본 자료형과 연산 - [강의영상](https://www.youtube.com/watch?v=K_D-FiyiB1s&index=11&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/7044/week-2-2?c=EFk5T6)
 - 자료형 변환 - [강의영상](https://www.youtube.com/watch?v=6zwQaY00G70&index=12&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [강의자료](https://docs.com/choi-sungchul/3473/week-2-3?c=EFk5T6)
 - Lab: 숙제 제출 방법 - 강의자료, 강의영상
-- Code Assignment: Arithmetic - 강의영상, 강의자료
-- Code Assignment: Basic Operations - 강의영상, 강의자료
+- Code Assignment: Basic Operations - [강의영상](https://www.youtube.com/watch?v=uWDvBHv-icQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [강의자료](http://theteamlab.io/course/1/class/8/)
 
 ### 3주차: 화면 입출력과 리스트 다루기 (Console & List Data Type)
 - Console 다루기 - [강의영상](https://www.youtube.com/watch?v=MJvx5m6xlBo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=13), [강의자료](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
 - Lab: 화씨 변환기 (Fahrenheit Converter) - [강의영상](https://www.youtube.com/watch?v=1izwqD7SSHk&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=14), [강의자료](https://doc.co/mjke6x/EFk5T6)
 - List Data Type - [강의영상](https://www.youtube.com/watch?v=lYxlnxKYsLI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=15), [강의자료](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
-- Code Assignment:
+- Code Assignment: 학점 계산기 (exam_grader) - 강의영상, [강의자료](http://theteamlab.io/course/1/class/12/)
 
 ### 4주차: 제어문과 반복문 (Condition & Loop)
 - Condition - [강의영상](https://www.youtube.com/watch?v=aE7grvgYGc4&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=16), [강의자료](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
