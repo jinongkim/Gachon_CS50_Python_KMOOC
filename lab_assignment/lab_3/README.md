@@ -13,10 +13,10 @@ Introduction
 
 먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
-`https://github.com/jinongkim/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_3/lab_3.zip
+`https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_3/lab_3.zip
 `
 
-다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 3 - 다운로드 링크](https://github.com/jinongkim/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_3/lab_3.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_3.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 3 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_3/lab_3.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_3.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
 그러면 `exam_grader.py` 파일이 다운로드 될 것입니다. 받자마자 실험 차원에서 코드를 한번 실행해봅시다.`python3.4 exam_grader.py`를 입력하면 됩니다. 이제 다들 코드를 어떻게 실행하는 지는 알 것입니다. 실행하면 아마 아래와 같은 에러 메세지가 뜰 것입니다.
 
