@@ -13,11 +13,16 @@ Introduction
 
 먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
+<<<<<<< HEAD
 > https://github.com/jinongkim/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_3/lab_3.zip
+=======
+`https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_3/lab_3.zip
+`
+>>>>>>> bfcdb44227f9bd5ab89e35c16ab224304136f739
 
-다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 3 - 다운로드 링크](https://github.com/jinongkim/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_3/lab_3.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_3.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 3 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_3/lab_3.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_3.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
-그러면 `exam_grader.py` 파일이 다운로드 될 것입니다. 받자마자 실험 차원에서 코드를 한번 실행해봅니다.<br>`python3.4 exam_grader.py`를 입력하면 됩니다. 이제 다들 코드를 어떻게 실행하는 지는 알 것입니다. 실행하면 아마 아래와 같은 에러 메세지가 뜰 것입니다.
+그러면 `exam_grader.py` 파일이 다운로드 될 것입니다. 받자마자 실험 차원에서 코드를 한번 실행해봅니다. 코드를 실행할 때에는 cmd 창에서 `python exam_grader.py`를 입력하면 됩니다. 이제 다들 코드를 어떻게 실행하는 지는 알 것입니다. 실행하면 아마 아래와 같은 에러 메세지가 뜰 것입니다.
 
 ```bash
 Start of Exam Grader Program
@@ -37,7 +42,7 @@ TypeError: 'NoneType' object cannot be interpreted as an integer
 exam_grader.py 코드 구조
 ------------------------
 
-이번 lab을 수행하기 위해서 첫 번째로 `main` 함수부터 들여다 봅시다. `main` 함수는 아래와 같이 구성되어 있습니다. 혹시몰라 또 적지만 밑에 코드는 `vim 에디터`로 확인이 가능하고 `vi exam_grader.py` 명령으로 파일을 열어볼 수 있습니다.
+이번 lab을 수행하기 위해서 첫 번째로 `main` 함수부터 들여다 봅시다. `main` 함수는 아래와 같이 구성되어 있습니다. 혹시몰라 또 적지만 밑에 코드는 `atom 에디터`로 확인이 가능하고 `atom exam_grader.py` 명령으로 파일을 열어볼 수 있습니다.
 
 ```python
 def main():
@@ -84,7 +89,7 @@ def get_number_of_subjects():
 
 ```
 
-복잡해 보일 수도 있으나, 함수 자체는 간단합니다. 입력 받는 값은 없고 함수를 실행 시키면 사용자 console 창에 `과목수를 입력하세요:` 라는 질문이 나오면서 사용자의 입력을 기다립니다. 사용자가 <strong>정수</strong> 를 입력하면 그 값을 integer type으로 변환하여 반환해줍니다. 간단하게 1) 입력 받고, 2) 정수로 변환해주기만 하면 되는 함수이기 때문에 쉽게 할 수 있을 것입니다.
+복잡해 보일 수도 있으나, 함수 자체는 간단합니다. 입력 받는 값은 없고 함수를 실행시키면 사용자 console 창에 `과목수를 입력하세요:` 라는 질문이 나오면서 사용자의 입력을 기다립니다. 사용자가 <strong>정수</strong> 를 입력하면 그 값을 integer type으로 변환하여 반환해줍니다. 간단하게 1) 입력 받고, 2) 정수로 변환해주기만 하면 되는 함수이기 때문에 쉽게 할 수 있을 것입니다.
 
 get_average_score 함수 생성하기
 -------------------------------
@@ -98,12 +103,12 @@ get_average_score 함수 생성하기
 |            | 2. number_of_subjects : Integer Type의 과목 갯수        |
 | output 값  | Float Type의 total_score을 number_of_subjects로 나눈 값 |
 
-이것만 보고 어떻게 함수를 만들지 난감하겠지만, 이정도 정보면 모든 정보를 다 준 것입니다. 실제 개발을 할 때는 함수명이나 변수명은 개발자가 임의로 정할 수 있습니다. 그러나 본 숙제에서는 정해진 규칙대로 작성하지 않으면 숙제 검사를 해주지 않습니다. 컴퓨터는 거짓말을 하진 않지만, 그렇다고 융통성이 있지도 않습니다.
+이것만 보고 어떻게 함수를 만들지 난감하겠지만, 이정도 정보면 모든 정보를 다 준 것입니다. 실제 개발을 할 때는 함수명이나 변수명은 개발자가 임의로 정할 수 있습니다. 그러나 본 숙제에서는 정해진 규칙대로 작성하지 않으면 숙제 검사를 해주지 않습니다. 컴퓨터는 거짓말을 하지는 않지만, 그렇다고 융통성이 있지도 않습니다.
 
 테스트 및 제출
 --------------
 
-두 함수를 모두 작성했다면 실행을 해봅시다. `bash shell`에서 `python3.4 exam_grader.py` 명령어로 실행을 하면 됩니다. 정확히 작성되었다면 아래와 같이 결과를 볼 수 있을 것입니다. 아래 결과 중 셋째 줄인 `과목수를 입력하세요:`는 출력되고 뒤에 `3`은 실습자가 직접 입력하는 것이며, 그 아랫줄에 `85`,`95`,`100` 모두 사용자가 직접 입력하는 항목입니다.
+두 함수를 모두 작성했다면 실행을 해봅시다. `console 환경`에서 `python exam_grader.py` 명령어로 실행을 하면 됩니다. 정확히 작성되었다면 아래와 같이 결과를 볼 수 있을 것입니다. 아래 결과 중 셋째 줄인 `과목수를 입력하세요:`는 출력되고 뒤에 `3`은 실습자가 직접 입력하는 것이며, 그 아랫줄에 `85`,`95`,`100` 모두 사용자가 직접 입력하는 항목입니다.
 
 ```bash
 Start of Exam Grader Program
@@ -118,7 +123,26 @@ Start of Exam Grader Program
 End of Exame Grader Program
 ```
 
-이제 숙제를 `python3.4 submit_assignment.py -submit exam_grader.py` 명령어를 입력하여 제출합시다. 완벽하지 못한 상태에서 숙제 제출를 수행하면 아래와 같은 에러를 볼 수도 있습니다.
+
+이제 숙제를 제출합시다. 
+
+- `windows`+`r`를 누르고 cmd 입력 후 확인을 클릭합니다.
+- 작업폴더로 경로를 이동합니다.
+- cmd 창에서 아래의 코드를 입력합니다.
+
+```bash
+python submit.py
+```
+
+위 명령어를 입력하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email 주소와 비밀번호를 입력합니다.
+
+```bash
+== Submmting solutions | arithmetic_function.py
+Login ID:
+Password :
+```
+
+완벽하지 못한 상태에서 숙제 제출을 수행하면 아래와 같은 에러를 볼 수도 있습니다.
 
 ```bash
 ---------------------- | ----------- | --------------------
@@ -129,7 +153,7 @@ get_number_of_subjects |       PASS  |             Good Job
 ---------------------- | ----------- | --------------------
 ```
 
-이럴 경우에는 `get_average_score` 함수를 이름에 안맞게 작성했을 경우 주로 나타납니다. 물론 아닌 경우도 있습니다. 다시 위의 내용을 점검하여 오탈자가 없는지 확인한 후 제출해봅시다. 제대로 작성할 경우 아래 메세지를 볼 수 있습니다.
+이런 경우는 `get_average_score` 함수를 이름에 안맞게 작성했을 경우 주로 나타납니다. 물론 아닌 경우도 있습니다. 다시 위의 내용을 점검하여 오탈자가 없는지 확인한 후 제출해봅시다. 제대로 작성할 경우 아래 메세지를 볼 수 있습니다.
 
 ```bash
 ---------------------- | ----------- | --------------------
