@@ -13,12 +13,12 @@ Introduction
 
 먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
-`https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_3/lab_3.zip
+`https://github.com/jinongkim/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_3/lab_3.zip
 `
 
-다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 3 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_3/lab_3.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_3.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 3 - 다운로드 링크](https://github.com/jinongkim/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_3/lab_3.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_3.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
-그러면 `exam_grader.py` 파일이 다운로드 될 것입니다. 받자마자 실험 차원에서 코드를 한번 실행해봅니다.`python3.4 exam_grader.py`를 입력하면 됩니다. 이제 다들 코드를 어떻게 실행하는 지는 알 것입니다. 실행하면 아마 아래와 같은 에러 메세지가 뜰 것입니다.
+그러면 `exam_grader.py` 파일이 다운로드 될 것입니다. 받자마자 실험 차원에서 코드를 한번 실행해봅니다.<br>`python3.4 exam_grader.py`를 입력하면 됩니다. 이제 다들 코드를 어떻게 실행하는 지는 알 것입니다. 실행하면 아마 아래와 같은 에러 메세지가 뜰 것입니다.
 
 ```bash
 Start of Exam Grader Program
@@ -85,7 +85,7 @@ def get_number_of_subjects():
 
 ```
 
-복잡해 보일수도 있으나, 함수 자체는 간단합니다. 입력 받는 값은 없고 함수를 실행 시키면 사용자 console 창에 `과목수를 입력하세요:` 라는 질문이 나오면서 사용자의 입력을 기다립니다. 사용자가 <strong>정수</strong> 를 입력하면 그 값을 integer type으로 변환하여 반환해줍니다. 간단하게 1) 입력 받고, 2) 정수로 변환해주기만 하면 되는 함수이기 때문에 쉽게 할 수 있을 것입니다.
+복잡해 보일 수도 있으나, 함수 자체는 간단합니다. 입력 받는 값은 없고 함수를 실행 시키면 사용자 console 창에 `과목수를 입력하세요:` 라는 질문이 나오면서 사용자의 입력을 기다립니다. 사용자가 <strong>정수</strong> 를 입력하면 그 값을 integer type으로 변환하여 반환해줍니다. 간단하게 1) 입력 받고, 2) 정수로 변환해주기만 하면 되는 함수이기 때문에 쉽게 할 수 있을 것입니다.
 
 get_average_score 함수 생성하기
 -------------------------------
