@@ -14,7 +14,7 @@ https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/l
 다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 4 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_4.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다. 그러면 `fahrenheit_converter.py` 파일이 다운로드 될 것입니다.
 
 ## fahrenheit_converter.py 파일 Overview
-`atom`으로 `fahrenheit_converter.py`을 열어 전체적인 개요를 봅시다. 파일을 열어보면 아래와 같은 내용이 파일에 기록되어 있을 것이다.
+`atom`으로 `fahrenheit_converter.py`을 열어 전체적인 개요를 봅시다. 파일을 열어보면 아래와 같은 내용이 파일에 기록되어 있을 것입니다.
 
 ```python
 # -*- coding: utf-8 -*-
@@ -131,7 +131,7 @@ print(abc)
 1. "What's Your Name? "을 input 함수의 입력 값으로 하여 input 함수를 호출하고, 그 결과를 abc 변수에 저장합니다.
 2. abc를 print 함수의 입력값으로 하여 print 함수를 호출합니다.
 
-수업 시간에 설명을 잘 들었다면, 무리없이 이해했을 거라 봅니다. 문의사항이 있으면 TA와 Slack을 활용합시다.
+수업 시간에 설명을 잘 들었다면, 무리없이 이해했을 거라 봅니다. 문의사항이 있으면 Slack을 활용합시다.
 
 ## 결과 출력하기
 실제 코드가 다 작성되어 `python fahrenheit_converter.py` 을 실행하면 아래와 같이 결과를 볼 수 있을 것입니다. 당연히 입력 부분은 수강자가 직접 입력을 해주어야 프로그램 진행됩니다.
