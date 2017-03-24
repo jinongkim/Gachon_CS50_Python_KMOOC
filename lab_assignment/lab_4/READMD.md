@@ -101,8 +101,7 @@ output 값   | Float Type의 섭씨값이 화씨값으로 변한된 값
 내용           | 구성
 --------       | ---
 함수명      | print_fahrenheit_value
-input 변수  | float type의 celsius_value
-            | float type의 fahrenheit_value
+input 변수  | float type의 celsius_value, float type의 fahrenheit_value
 Process     | 입력 받은 celsius_value와 fahrenheit_value를 화면상에 출력해줍니다. 출력시 `섭씨온도 :`, `화씨온도 :` 가 포함이 되어야 합니다.
 output 값   | 없음. output 값이 없을 경우 `return 변수명` 부분을 생략하면 됨
 
