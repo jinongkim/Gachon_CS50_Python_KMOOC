@@ -1,4 +1,4 @@
-Lab #6 - 화씨 변환기 (fconverter)
+Lab #4 - 화씨 변환기 (fconverter)
 =======
 Copyright 2015 © document created by TeamLab.Gachon@gmail.com
 
