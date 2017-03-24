@@ -11,7 +11,7 @@ Copyright 2015 © document created by TeamLab.Gachon@gmail.com
 >
 https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip
 
-다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 4 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_4.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다. 그러면 `fahrenheit_converter.py` 파일이 다운로드 될 것입니다.
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 4 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_4.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
 ## fahrenheit_converter.py 파일 Overview
 `atom`으로 `fahrenheit_converter.py`을 열어 전체적인 개요를 봅시다. 파일을 열어보면 아래와 같은 내용이 파일에 기록되어 있을 것입니다.
