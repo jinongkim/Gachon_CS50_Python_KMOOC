@@ -8,13 +8,13 @@ Copyright 2015 © document created by TeamLab.Gachon@gmail.com
 ## 숙제 template 파일 다운로드
 먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
 
-```bash
-python3.4 submit_assignment.py -get fconverter
-```  
+>
+https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip
 
-입력되면 다운로드 안내 메세지와 함께 `fahrenheit_converter.py` 파일이 다운로드 됩니다.
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 4 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_4.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다. 그러면 `fahrenheit_converter.py` 파일이 다운로드 될 것입니다.
+
 ## fahrenheit_converter.py 파일 Overview
-`vim editor`로 `fahrenheit_converter.py`을 열어 전체적인 개요를 보자. `vi fahrenheit_converter.py`명령으로 파일을 열어보면 아래와 같은 내용이 파일에 기록되어 있을 것이다.
+`atom`으로 `fahrenheit_converter.py`을 열어 전체적인 개요를 봅시다. 파일을 열어보면 아래와 같은 내용이 파일에 기록되어 있을 것이다.
 
 ```python
 # -*- coding: utf-8 -*-
@@ -35,17 +35,18 @@ if __name__ == '__main__':
 ```
 
 수강생이 할일은 크게 두 가지입니다. 하나는 프로그램 수행을 위해 3개의 함수를 작성하는 것이고, 두 번째는 `main`함수에 작성된 3개의 함수를 사용해서 화씨 변환기를 돌려 보는 것입니다. 현재 코드는 헐렁하지만 여러분들이 빈 공간을 채우면 됩니다.
+
 ## input_celsius_value 함수 작성하기
-3개의 함수 부터 작성해봅시다. 이미 함수 하나를 작성하는 것은 lab 5에서 연습해보았기 때문에 어렵지 않을 수도 있습니다. 아래 내용을 참고하여 `input_celsius_value` 함수를 작성해봅시다.
+3개의 함수 부터 작성해봅시다. 이미 함수 하나를 작성하는 것은 lab 3에서 연습해보았기 때문에 어렵지 않을 수도 있습니다. 아래 내용을 참고하여 `input_celsius_value` 함수를 작성해봅시다.
 
 내용           | 구성
 --------       | ---
 함수명      | input_celsius_value
 input 변수  | 없음
-Process  | "변환하고 싶은 섭씨  온도를 입력해 주세요: " 이라는 글자를 화면에 출력하고, 입력된 값을 실수로 변환해줌. 사용자는 실수값 형태로만 입력한다고 가정함
+Process  | "변환하고 싶은 섭씨  온도를 입력해 주세요: " 이라는 글자를 화면에 출력하고, 입력된 값을 실수로 변환해줍니다. 사용자는 실수값 형태로만 입력한다고 가정합니다.
 output 값   | Float Type의 celsius_value
 
-함수를 작성하고 나서 잘 작동하는 지 궁금할 것입니다. 확인하는 방법은 두가지가 있습니다. 먼저 아래처럼 기존 코드에서 `main` 함수를 주석 처리하고 테스트 코드를 삽입하는 방법입니다. `fahrenheit_converter.py` 파일을 `vim editor`로 열어 맨 마지막 `if __name__ == '__main__':`을 아래처럼 수정해 봅시다.
+함수를 작성하고 나서 잘 작동하는 지 궁금할 것입니다. 확인하는 방법은 두가지가 있습니다. 먼저 아래처럼 기존 코드에서 `main` 함수를 주석 처리하고 테스트 코드를 삽입하는 방법입니다. `fahrenheit_converter.py` 파일을 `atom`으로 열어 맨 마지막 `if __name__ == '__main__':`을 아래처럼 수정해 봅시다.
 
 ```python
 if __name__ == '__main__':
@@ -54,7 +55,7 @@ if __name__ == '__main__':
     print(celsius_value)
 ```
 
-함수가 정상적으로 작성된 후, `bash shell`에서 `python3.4 fahrenheit_converter.py`을 실행하면 아래와 같은 화면을 보게 될 것입니다.
+함수가 정상적으로 작성된 후, `cmd` 창에서 `python fahrenheit_converter.py`을 실행하면 아래와 같은 화면을 보게 될 것입니다.
 
 ```bash
 변환하고 싶은 섭씨  온도를 입력해 주세요: 15.2
@@ -62,12 +63,9 @@ if __name__ == '__main__':
 ```
 
 입력해 준 값을 그대로 출력해 주는 것으로 별다른 특징은 없습니다.
-코드 자체를 수정하여 테스트 코드를 넣는 방법도 있지만, 기존 처럼 `python shell`에서 테스트하는 방법도 있습니다. `bash shell`에서 `python3.4`을 입력하여 `python shell`을 실행 시켜서 아래와 같이 테스트 해봅시다.
+코드 자체를 수정하여 테스트 코드를 넣는 방법도 있지만, 기존 처럼 `python shell`에서 테스트하는 방법도 있습니다. `cmd` 창에서 `python`을 입력하여 `python shell`을 실행 시켜서 아래와 같이 테스트 해봅시다.
 
 ```python
-Python 3.4.0 (default, Jun 19 2015, 14:20:21)
-[GCC 4.8.2] on linux
-Type "help", "copyright", "credits" or "license" for more information.
 >>> import fahrenheit_converter as fc
 >>> fc.input_celsius_value()
 변환하고 싶은 섭씨  온도를 입력해 주세요:10
@@ -83,7 +81,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 --------       | ---
 함수명      | convert_celsius_fahrenheit
 input 변수  | float type의 celsius_value
-Process  | 섭씨=> 화씨의 변환 공식에 따라 섭씨를 화씨 값으로 변화해줌. 변환 공식은 `((9 / 5) * 섭씨값) + 32` 임
+Process  | 섭씨=> 화씨의 변환 공식에 따라 섭씨를 화씨 값으로 변화해줍니다. 변환 공식은 `((9 / 5) * 섭씨값) + 32` 입니다.
 output 값   | Float Type의 섭씨값이 화씨값으로 변한된 값
 
 테스트 코드는 이미 수업시간 다뤄 졌지만 `python shell` 수행시 아래와 같이 나오면 정상적으로 작성된 것입니다.
@@ -105,7 +103,7 @@ output 값   | Float Type의 섭씨값이 화씨값으로 변한된 값
 함수명      | print_fahrenheit_value
 input 변수  | float type의 celsius_value
             | float type의 fahrenheit_value
-Process     | 입력 받은 celsius_value와 fahrenheit_value를 화면상에 출력해줌. 출력시 `섭씨온도 :`, `화씨온도 :` 가 포함이 되어야 함
+Process     | 입력 받은 celsius_value와 fahrenheit_value를 화면상에 출력해줍니다. 출력시 `섭씨온도 :`, `화씨온도 :` 가 포함이 되어야 합니다.
 output 값   | 없음. output 값이 없을 경우 `return 변수명` 부분을 생략하면 됨
 
 `python shell`에서 test 해보면 다음과 같이 실행됩니다.
@@ -134,10 +132,10 @@ print(abc)
 1. "What's Your Name? "을 input 함수의 입력 값으로 하여 input 함수를 호출하고, 그 결과를 abc 변수에 저장합니다.
 2. abc를 print 함수의 입력값으로 하여 print 함수를 호출합니다.
 
-수업 시간에 설명을 잘 들었다면, 무리없이 이해했을 거라 본다. 문의사항이 있으면 TA와 Slack을 활용하자.
+수업 시간에 설명을 잘 들었다면, 무리없이 이해했을 거라 봅니다. 문의사항이 있으면 TA와 Slack을 활용합시다.
 
 ## 결과 출력하기
-실제 코드가 다 작성되어 `python3.4 fahrenheit_converter.py` 아래와 같이 결과를 볼 수 있을 것이다. 당연히 입력 부분은 수강자가 직접 입력을 해주어야 프로그램 진행된다.
+실제 코드가 다 작성되어 `python fahrenheit_converter.py` 을 실행하면 아래와 같이 결과를 볼 수 있을 것입니다. 당연히 입력 부분은 수강자가 직접 입력을 해주어야 프로그램 진행됩니다.
 
 ```bash
 본 프로그램은 섭씨를 화씨로로 변환해주는 프로그램입니다
@@ -150,7 +148,24 @@ print(abc)
 ```
 
 ## 숙제 제출하기
-모든 lab assignment가 종료되었다. `python3.4 submit_assignment.py -submit fahrenheit_converter.py` 명령으로 lab assignment를 제출하자. 참고로 lab assignment 제출은 진행 중간중간해도 문제가 없다. 제대로 작성되었다면 아래와 같은 메세지를 확인할 수 있을 것이다.
+모든 lab assignment가 종료되었습니다. 이제 숙제를 제출합시다.
+- `windows`+`r`를 누르고 cmd 입력 후 확인을 클릭합니다.
+- 작업폴더로 경로를 이동합니다.
+- cmd 창에서 아래의 코드를 입력합니다.
+
+```python
+python submit.py
+```
+
+위 명령어를 입력하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email 주소와 비밀번호를 입력합니다.
+
+```python
+== Submmting solutions | arithmetic_function.py
+Login ID:
+Password :
+```
+참고로 lab assignment 제출은 진행 중간중간해도 문제가 없습니다. 제대로 작성되었다면 아래와 같은 메세지를 확인할 수 있을 것이다.
+
 ```bash
 -------------------- | ---------- | --------------------
        Function Name |    Passed? |             Feedback
@@ -162,7 +177,7 @@ convert_celsius_fahrenheit |       PASS |             Good Job
 -------------------- | ---------- | --------------------
 ```
 ## Next Work
-2주차 lab을 모두 끝냈다. 스스로의 끈기와 열정을 칭찬하고 시원한 맥주한잔 하면서 자축하길 바란다. 처음으로 여러분은 단순한 수정이 아닌 스스로의 프로그램을 만들어보았다. 앞으로의 모든 숙제는 이런식으로 작성이 되니 스스로 하지 않았다면 다시한번 시도해서 완벽히 이해하고 넘어가길 바란다.
+lab_4를 모두 끝냈습니다. 스스로의 끈기와 열정을 칭찬하고 시원한 맥주한잔 하면서 자축하길 바랍니다. 처음으로 여러분은 단순한 수정이 아닌 스스로의 프로그램을 만들어보았습니다. 앞으로의 모든 숙제는 이런식으로 작성이 되니 스스로 하지 않았다면 다시한번 시도해서 완벽히 이해하고 넘어가길 바랍니다.
 
 > **Human knowledge belongs to the world** - from movie 'Password' -
 
