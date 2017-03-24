@@ -179,5 +179,3 @@ convert_celsius_fahrenheit |       PASS |             Good Job
 lab_4를 모두 끝냈습니다. 스스로의 끈기와 열정을 칭찬하고 시원한 맥주한잔 하면서 자축하길 바랍니다. 처음으로 여러분은 단순한 수정이 아닌 스스로의 프로그램을 만들어보았습니다. 앞으로의 모든 숙제는 이런식으로 작성이 되니 스스로 하지 않았다면 다시한번 시도해서 완벽히 이해하고 넘어가길 바랍니다.
 
 > **Human knowledge belongs to the world** - from movie 'Password' -
-
-## Footnotes
