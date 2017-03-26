@@ -5,7 +5,7 @@ Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 ## Introduction
 축하합니다! 2주차임에도 불구하고 이 글을 읽고 있다는 것은 여러분들이 포기하지 않고 수업을 들을 의지를 가지고 있다는 것입니다. 그 의지를 마지막까지 유지하시면 좋겠습니다.
 
-이번 Lab은 python의 간단한 연산 문제들을 수행하는 것입니다. 연산이라고 해서 덧셈, 뺄셈과 같은 산수만 생각할 수 있으나, 문자열을 포함하여 파이썬에서 기초 데이터형을 어떻게 다루는지까지 연습하게 됩니다.   
+이번 Lab은 python의 간단한 연산 문제들을 수행하는 것입니다. 연산이라고 해서 덧셈, 뺄셈과 같은 산수만 생각할 수 있으나, 문자열을 포함하여 파이썬에서 기초 데이터형을 어떻게 다루는지까지 연습하게 됩니다.  
 이번 차시 부터 Lab Assignment의 설명을 자세하게 하지 않을 것입니다. 이것은 이 수업의 전반적인 추세로 시간이 지나감에 따라 상세한 설명과 가이드는 없어지고 스스로 하는 부분들이 많아집니다. 막상 해보면 할 수 있으니 스스로 해보시길 바랍니다.
 
 ## 숙제 파일(lab_2.zip) 다운로드
@@ -137,7 +137,7 @@ def main():
 ```bash
 python submit.py
 ```
-위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email 주소와 비밀번호를 입력합니다.
+위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 Login ID와 비밀번호를 입력합니다.
 
 ```bash
 == Submmting solutions | arithmetic_function.py

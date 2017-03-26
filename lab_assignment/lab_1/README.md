@@ -151,7 +151,7 @@ def main():
 python submit.py
 ```
 
-위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email주소와 비밀번호를 입력합니다.
+위 명령어를 입력 하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 Login ID와 비밀번호를 입력합니다.
 
 ```bash
 == Submmting solutions | arithmetic_function.py
