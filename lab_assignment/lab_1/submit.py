@@ -67,7 +67,7 @@ def getLoginInformation():
 
 def getAccessTokenFromServer(email, login_password):
     headers = {'Content-type': 'application/json'}
-    payload = {"password":login_password, "email":email}
+    payload = {"password":login_password, "username":email}
 
     access_token_jwt = requests.post("http://"+HOST+"/api-token-auth/", json=payload, headers=headers)
 
