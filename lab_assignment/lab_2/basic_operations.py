@@ -245,8 +245,7 @@ def main():
 
     print("distributive_law Test")
     print(distributive_law(6, 7, 3))  # Expected Result: 60
-    print("====> ", distributive_law(2, 4, 1) == 15)
-    # Expected Result: False
+    print("====> ", distributive_law(2, 4, 1) == 10) # Expected Result: True
     print("distributive_law Test Closed \n")
 
     print("Exponent Test")
