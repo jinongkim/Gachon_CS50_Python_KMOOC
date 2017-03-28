@@ -3,7 +3,7 @@ Lab #4 - 화씨 변환기 (fahrenheit_converter)
 Copyright 2015 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
-2주차 강의의 마지막 lab assignment입니다. 이번 lab은 더 짧고 더 불친절합니다. 이번 랩은 이미 수업시간에 한번 다룬 화씨 변환기를 숙제 형식에 맞게 수정하였습니다. 이번 lab의 가장 큰 특징은 `main` 함수마저 수강생들이 직접 작성한다는 것입니다. 조금 어려워 보일수도 있으나 막상 끝나고 보면 쉬울 것입니다. 이번 lab에서는 개별 함수의 작성 그리고 각 함수들의 연결을 연습해 봅시다.   
+4주차 강의 Lab Assignment 입니다. 이번 lab은 더 짧고 더 불친절합니다. 이번 랩은 이미 수업시간에 한번 다룬 화씨 변환기를 숙제 형식에 맞게 수정하였습니다. 이번 lab의 가장 큰 특징은 `main` 함수마저 수강생들이 직접 작성한다는 것입니다. 조금 어려워 보일수도 있으나 막상 끝나고 보면 쉬울 것입니다. 이번 lab에서는 개별 함수의 작성 그리고 각 함수들의 연결을 연습해 봅시다.
 
 ## 숙제 template 파일 다운로드
 먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
@@ -42,9 +42,9 @@ if __name__ == '__main__':
 내용           | 구성
 --------       | ---
 함수명      | input_celsius_value
-input 변수  | 없음
+input 변수(argument) | 없음
 Process  | "변환하고 싶은 섭씨  온도를 입력해 주세요: " 이라는 글자를 화면에 출력하고, 입력된 값을 실수로 변환해줍니다. 사용자는 실수값 형태로만 입력한다고 가정합니다.
-output 값   | Float Type의 celsius_value
+output 값(return value)  | Float Type의 celsius_value
 
 함수를 작성하고 나서 잘 작동하는 지 궁금할 것입니다. 확인하는 방법은 두가지가 있습니다. 먼저 아래처럼 기존 코드에서 `main` 함수를 주석 처리하고 테스트 코드를 삽입하는 방법입니다. `fahrenheit_converter.py` 파일을 `atom`으로 열어 맨 마지막 `if __name__ == '__main__':`을 아래처럼 수정해 봅시다.
 
@@ -80,9 +80,9 @@ if __name__ == '__main__':
 내용           | 구성
 --------       | ---
 함수명      | convert_celsius_fahrenheit
-input 변수  | float type의 celsius_value
-Process  | 섭씨=> 화씨의 변환 공식에 따라 섭씨를 화씨 값으로 변화해줍니다. 변환 공식은 `((9 / 5) * 섭씨값) + 32` 입니다.
-output 값   | Float Type의 섭씨값이 화씨값으로 변한된 값
+input 변수(argument)  | float type의 celsius_value
+Process  | 섭씨=> 화씨의 변환 공식에 따라 섭씨를 화씨 값으로 변환해줍니다. 변환 공식은 `((9 / 5) * 섭씨값) + 32` 입니다. 여기서 `섭씨값` 특정한 변수명으로 변경되야 합니다. 기억하세요.
+output 값(return value)    | Float Type의 섭씨값이 화씨값으로 변한된 값
 
 테스트 코드는 이미 수업시간 다뤄 졌지만 `python shell` 수행시 아래와 같이 나오면 정상적으로 작성된 것입니다.
 ```python
@@ -101,16 +101,16 @@ output 값   | Float Type의 섭씨값이 화씨값으로 변한된 값
 내용           | 구성
 --------       | ---
 함수명      | print_fahrenheit_value
-input 변수  | float type의 celsius_value, float type의 fahrenheit_value
+input 변수(argument) | float type의 celsius_value, float type의 fahrenheit_value
 Process     | 입력 받은 celsius_value와 fahrenheit_value를 화면상에 출력해줍니다. 출력시 `섭씨온도 :`, `화씨온도 :` 가 포함이 되어야 합니다.
-output 값   | 없음. output 값이 없을 경우 `return 변수명` 부분을 생략하면 됩니다.
+output 값(return value)  | 없음. output 값이 없을 경우 `return 변수명` 부분을 생략하면 됩니다.
 
 `python shell`에서 test 해보면 다음과 같이 실행됩니다.
 ```python
 >>> import fahrenheit_converter as fc
 >>> fc.print_fahrenheit_value(10.3,20.3)
-섭씨온도 :  10.3
-화씨온도 :  20.3
+섭씨온도 : 10.3
+화씨온도 : 20.3
 ```
 어떻게 보면 굉장히 간단한 함수입니다. 입력받은 값을 그대로 출력만 해주면 되기 때문입니다.  단지 `섭씨온도`와 `화씨온도`등 메세지가 정확히 출력하도록 오타 없이 입력해주기 바랍니다.
 
@@ -139,9 +139,9 @@ print(abc)
 ```bash
 본 프로그램은 섭씨를 화씨로로 변환해주는 프로그램입니다
 ============================
-변환하고 싶은 섭씨  온도를 입력해 주세요:32.2
-섭씨온도 :  32.2
-화씨온도 :  89.96000000000001
+변환하고 싶은 섭씨  온도를 입력해 주세요 : 32.2
+섭씨온도 : 32.2
+화씨온도 : 89.96000000000001
 ===========================
 프로그램이 종료 되었습니다.
 ```
@@ -156,10 +156,10 @@ print(abc)
 python submit.py
 ```
 
-위 명령어를 입력하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 email 주소와 비밀번호를 입력합니다.
+위 명령어를 입력하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 ID와 비밀번호를 입력합니다.
 
 ```python
-== Submmting solutions | arithmetic_function.py
+== Submmting solutions | fahrenheit_converter.py
 Login ID:
 Password :
 ```
