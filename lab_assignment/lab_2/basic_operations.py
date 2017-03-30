@@ -226,15 +226,13 @@ def main():
     print("add_string_string Test")
     print(add_string_string("1.4", "1.5"))  # Expected Result: "1.41.5"
     print(add_string_string("이길", "여") == 15)  # Expected Result: False
-    print("====> ", add_string_string("이길", "여") == "이길여")
-    # Expected Result: False
+    print("====> ", add_string_string("이길", "여") == "이길여") # Expected Result: True
     print("add_string_string Test Closed \n")
 
     print("associative_law_add Test")
     print(associative_law_add(3, 5, 4))  # Expected Result: 12
     print(associative_law_add(10, 5, 67) == 15)  # Expected Result: False
-    print("====> ", associative_law_add(10, 5, 5) == 20)
-    # Expected Result: False
+    print("====> ", associative_law_add(10, 5, 5) == 20) # Expected Result: True
     print("associative_law_add Test iClosed \n")
 
     print("associative_law_mutiple Test")
