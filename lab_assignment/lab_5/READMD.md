@@ -1,18 +1,19 @@
-Lab #7 - list, control, loop 연습 (gowithflow)
-=======
-Copyright 2015 © document created by TeamLab.Gachon@gmail.com
+Lab #5 - list, control, loop 연습 (gowithflow)
+============================================
+Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
-3주차임에도 불구하고 16주차처럼 느껴진다면 기분 탓일 겁니다. 기분좋게 Lab 6를 시작하는 여러분들을 환영합니다. 굉장히 어렵고 힘들게 느껴지겠지만, 실은 기초중에 기초를 하고 있다는 것에 좌절하지 않길 바랍니다. 혹시 인스타그램을 쓰십니까? 참고로 인스타그램은 파이썬으로 개발된 대표적인 서비스입니다. 언젠가 그런 서비스를 개발할 날을 꿈꾸며, 오늘의 Lab을 시작합시다.
-이번 차시의 Lab은 이미 배운 list, if문, for문과 while문 등을 연습합니다. 기본적인 형태는 이미 경험해본 Lab #4 - basic_operations와 같습니다. 다양한 함수들이 존재하고 각 함수에 목적에 맞게 수정하면 됩니다.
+6주차임에도 불구하고 16주차처럼 느껴진다면 기분 탓일 겁니다. 기분좋게 Lab 5를 시작하는 여러분들을 환영합니다. 굉장히 어렵고 힘들게 느껴지겠지만, 실은 기초중에 기초를 하고 있다는 것에 좌절하지 않길 바랍니다. 혹시 인스타그램을 쓰십니까? 참고로 인스타그램은 파이썬으로 개발된 대표적인 서비스입니다. 언젠가 그런 서비스를 개발할 날을 꿈꾸며, 오늘의 Lab을 시작합시다.
+이번 차시의 Lab은 이미 배운 list, if문, for문과 while문 등을 연습합니다. 기본적인 형태는 이미 경험해본 `Lab #2 - basic_operations`와 같습니다. 다양한 함수들이 존재하고 각 함수에 목적에 맞게 수정하면 됩니다.
 난이도가 점점 올라갑니다. 그럼에도 불구하고 아직 기초라는 사실을 잊지 말고, Lab을 즐기길 바랍니다.
 
 ## 숙제 template 파일 다운로드
-먼저 숙제 template 파일을 cs50 서버로 부터 다운로드 받습니다. 로그인 후 나타나는 bash shell에서 다음과 같은 명령을 입력합시다.
-```bash
- python3.4 submit_assignment.py -get gowithflow
-```  
-정상적으로 다운했다면 현재 디렉토리에 `gowithflow.py` 파일 생성되었을 것입니다. `ls` 명령어로 확인하시면 됩니다.
+먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
+
+>
+https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_5/lab_5.zip
+
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 5 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_5/lab_5.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_5.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
 ## 수정 해야할 함수 종류들
 숙제 파일을 다운로드 후 `vi gowithflow.py` 명령어를 입력하여 숙제 파일을 살펴 봅시다. 참고로 본 강의의 Lab 구성은 Lab #5나 Lab #6처럼 `main()` 함수 자체를 수정해서 전체 프로그램 목적에 맞게 프로그램을 작성하는 Lab도 있고, 본 Lab #6나 Lab #5 처럼 단위 함수를 수정하여 단순히 기능들을 연습하는 Lab도 있습니다. 단순히 기능 연습만으로 프로그램을 짤 수 없고, 로직에 대한 이해가 어렵기 때문에 보통 한 차수의 Lab은 두개이상입니다. 애정이 있어서 Lab이 많은 거니 너무 화를 내지는 맙시다.
@@ -40,7 +41,7 @@ a = [1, 2, 3, 4, 5]
 b = ['a', 'b', 'c', 'd', 'e']
 c = a + b
 ```
-저 방법외에 `a.extend(b)`를 하면 a 변수에 b list가 합쳐집니다.
+저 방법외에 `a.extend(b)`를 하면 a list변수에 b list가 합쳐집니다.
 특정한 값이 해당 리스트에 존재하는지 확인하기 위해서는 `if value in list_data` 같은 표현을 쓸 수 있습니다. `value`라는 값이 `list_data`라는 list type에 들어가있는지 확인하는 구문입니다. 당연히 if문 형식이기 때문에 `indentation`을 사용하여 실행 명령을 아래 적어줘야 합니다. 아래와 같이 코드를 작성할 수 있습니다.
 ```python
 result = []
@@ -53,11 +54,23 @@ list에 새로운 값을 추가하는 방법은 `list_data.append(추가하는�
 제일 작은 값을 찾는 방법은 `min(list_data)` 이고, 특정한 값이 list에 존재하는 갯수를 찾을 때는 `list_data.count(특정한값)`입니다. 지금 설명하는 내용은 `number_of_cases`에 필요한 내용들이므로 숙제를 하기 바랍니다.
 
 ## 숙제 제출하기
-모든 함수를 다 수정했다면, 아래와 같이 제출합시다.
-```bash
- python3.4 submit_assignment.py -submit gowithflow.py
-```  
-제대로 작성했다면 아래와 같은 메세지가 뜰 것입니다.
+모든 lab assignment가 종료되었습니다. 이제 숙제를 제출합시다.
+- `windows`+`r`를 누르고 cmd 입력 후 확인을 클릭합니다.
+- 작업폴더로 경로를 이동합니다.
+- cmd 창에서 아래의 코드를 입력합니다.
+
+```python
+python submit.py
+```
+
+위 명령어를 입력하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 ID와 비밀번호를 입력합니다.
+
+```python
+== Submmting solutions | gowithflow.py
+Login ID:
+Password :
+```
+
 ```python
 -------------------- | ---------- | --------------------
        Function Name |    Passed? |             Feedback
