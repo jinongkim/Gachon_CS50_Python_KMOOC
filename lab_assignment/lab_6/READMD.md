@@ -1,12 +1,19 @@
-Lab #8- Factorial 계산기 (factorial_calculator)
+Lab #6- Factorial 계산기 (factorial_calculator)
 =======
 Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
-이번 Lab은 처음으로 main 함수에서 control을 다룹니다. 이때까지 모든 Lab은 단순히 단위 함수를 수정하거나, 약간의 main 함수 수정으로 1회성으로 진행하는 프로그램만 작성했습니다. 이번 Lab은 사용자가 특정한 입력을 하기 전까지 프로그램이 계속 수행되기 위하여 Loop구문과 if문을 활용한 main함수를 작성합니다. 처음이라 상당히 어렵게 느껴질 수도 있는데, 이 역시 시간이 지나가서 보면 쉬운 Lab 중 하나 일거라는 생각이 들 것입니다. 즐거운 마음으로 시작해보세요.
+이번 Lab은 처음으로 main 함수에서 control을 다룹니다. 이때까지 모든 Lab은 단순히 단위 함수를 수정하거나, 약간의 main 함수 수정으로 1회성으로 진행하는 프로그램만 작성했습니다. 이번 Lab은 사용자가 특정한 입력을 하기 전까지 프로그램이 계속 수행되기 위하여 Loop구문과 if문을 활용한 main함수를 작성합니다. 처음이라 상당히 어렵게 느껴질 수도 있는데, 이 역시 시간이 지나가서 보면 쉬운 Lab 중 하나 일거라는 생각이 들 것 입니다. 즐거운 마음으로 시작해 봅시다.
+
+## 숙제 template 파일 다운로드
+먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
+
+https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_6/lab_6.zip
+
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 6 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_6/lab_6.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_6.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
 ## Factorial Calculator Overview
-먼저 이번 숙제의 목적인 Factorial 계산기에 대하여 알아보면, 한국어로는 "계승"으로도 번역되는 Factorial은 1 부터 n까지의 모든 자연수를 곱한 결과를 의미합니다. 즉 n factorial은 `1 X 2 X 3 X ... X n`의 의미이며, 숫자기호로는 `n!`로 표시한다. 만약 `5!` 인 경우는 `1 X 2 X 3 X 4 X 5` 즉 `120`을 의미합니다. 수학적으로 좀 유식하게 쓰면 아래처럼 표현하기도 한다(From wikipedia). 자세한 내용은 [wikipedia의 계승 페이지][1]를 참고하시기 바랍니다.
+먼저 이번 숙제의 목적인 Factorial 계산기에 대하여 알아보면, 한국어로는 "계승"으로도 번역되는 Factorial은 1 부터 n까지의 모든 자연수를 곱한 결과를 의미합니다. 즉 n factorial은 `1 X 2 X 3 X ... X n`의 의미이며, 숫자기호로는 `n!`로 표시합니다. 만약 `5!` 인 경우는 `1 X 2 X 3 X 4 X 5` 즉 `120`을 의미합니다. 수학적으로 좀 유식하게 쓰면 아래처럼 표현하기도 합니다(From wikipedia). 자세한 내용은 [wikipedia의 계승 페이지][1]를 참고하시기 바랍니다.
 
 ![Factorial 수학식](https://upload.wikimedia.org/math/6/3/a/63a0817e426d92a89470f75c4ad5bd0a.png)
 
@@ -16,29 +23,24 @@ Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 
 본 프로그램은 다음과 같이 세 가지 규칙에 의해 실행됩니다.
 
-1. 프로그램이 실행되어 사용자가 자연수를 입력하면 입력된 수의 Factorial 값을 계산하여 출력한다. 즉 사용자가 `5`라고 입력하면 `120`이 다음줄에 출력되야 합니다.
+1. 프로그램이 실행되어 사용자가 자연수를 입력하면 입력된 수의 Factorial 값을 계산하여 출력합니다. 즉 사용자가 `5`라고 입력하면 `120`이 다음줄에 출력되야 합니다.
 2. 사용자가 자연수와 0이외 다른 문자를 `Input again, Please`라는 글자가 출력되면서 다시 입력할 수 있도록 합니다.
 3. 사용자가 0을 입력하면 `Thank you for using this program`이라는 메세지를 출력하면서 종료합니다.
 
 로직 자체는 상당히 간단하고, 이미 배운 내용들로 충분히 구현할 수 있습니다. 하지만, 처음 해보는 Control 숙제이기 때문에 상당히 어렵게 느껴질 것입니다. 이번 Lab은 조금 자세히 설명하니 꼭 문서를 정독하길 바랍니다.
 
-## 숙제 파일(lab_6.zip) 다운로드
-먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
-
-https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_6/lab_6.zip
-
-다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 4 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_6/lab_6.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_6.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
-
 ## factorial_calculator.py 파일 Overview
-`atom`으로 `factorial_calculator.py`을 열어 전체적인 개요를 봅니다. 파일을 열어보면 `main` 함수와 `is_positive_number`함수가 존재할 것입니다. 본 Lab에서 수정 및 추가해야할 함수는 아래 세 가지입니다.
+`atom`으로 `factorial_calculator.py`을 열어 전체적인 개요를 봅시다.
+파일을 열어보면 `main` 함수와 `is_positive_number`, `get_factorial_value` 함수가 존재할 것입니다.
+본 Lab에서 수정해야할 함수 목록은 아래와 같습니다.
 
 함수           | 설명
 --------       | ---
 is_positive_number| 문자열로 된 값을 입력받아, 해당 값이 자연수로 변환이 될 경우에는 True를 반환하고 변환이 안될 경우에는 False를 반환합니다.
-get_factorial_value| 자연수를 입력받아 해당 자연수의 Factorial 값을 계산하여 반환한다. 즉 5를 입력받으면 120을 반환합니다.
+get_factorial_value| 자연수를 입력받아 해당 자연수의 Factorial 값을 계산하여 반환합니다. 즉 5를 입력받으면 120을 반환합니다.
 main| 사용자가 값을 입력받아 Factorial 값을 화면에 출력하도록 합니다. 앞장 "Factorial Calculator Overview" 적힌 규칙에 따라 0을 입력하면 프로그램을 종료하고, 자연수가 아닌 값을 입력하면 다시 입력하도록 요청합니다.
 
-각 함수별로 작성하는 방법을 살펴봅니다.
+각 함수별로 작성하는 방법을 살펴봅시다.
 
 ## is_positive_number 함수 수정하기
 첫 번째 함수는 `is_positive_number` 함수입니다. 이미 template이 아래와 같이 작성되어 있습니다. 실제 코드에는 주석이 달려있지만, 설명을 위해 아래에는 생략했습니다.
@@ -66,7 +68,7 @@ integer로 변환이 불가능할 경우, `try ~ catch` 문에 의해 자동으�
 
 ## get_factorial_value 함수 작성하기
 두 번째 함수는 `get_factorial_value` 입니다. 본 함수는 `integer_value` 라는 자연수 값을 입력받아, 해당 값의 factorial 값을 반환합니다. 이미 자연수로 변환된 값만 입력받기 때문에 위 `is_positive_number` 함수처럼 입력된 값에 대한 확인을 할 필요가 없습니다.
-Factorial 값을 구하기 위해서는 많은 방법이 있지만, for문을 활용하는 것이 가장 좋을 것으로 생각됩니다. for문을 사용하면 1부터 `integer_value` 까지를 모두 곱하는 것이 가장 쉽습니다. 한가지 조심해야 하는 것은 integer_value을 사용하여 for문을 작성할 경우, 흔히 활용하는 `range(integer_value)`구문을 쓰면 0부터 값이 시작되기 때문에 `range(1,integer_value+1)`로 작성해줘야 합니다. 물론 `range` 구문을 쓰는 것 말고도 factorial 값을 구할 수 있는 방법은 무궁무진 합니다. 수강자가 원하는 어떤 방법을 사용하든 입뎍된 `integer_value`의 Facotrial 값만 반환해주면 됩니다.
+Factorial 값을 구하기 위해서는 많은 방법이 있지만, for문을 활용하는 것이 가장 좋을 것으로 생각됩니다. for문을 사용하면 1부터 `integer_value` 까지를 모두 곱하는 것이 가장 쉽습니다. 한가지 조심해야 하는 것은 integer_value을 사용하여 for문을 작성할 경우, 흔히 활용하는 `range(integer_value)`구문을 쓰면 0부터 값이 시작되기 때문에 `range(1,integer_value+1)`로 작성해줘야 합니다. 물론 `range` 구문을 쓰는 것 말고도 factorial 값을 구할 수 있는 방법은 무궁무진 합니다. 수강생이 원하는 어떤 방법을 사용하든 입력된 `integer_value`의 Facotrial 값만 반환해주면 됩니다.
 
 ## main 함수 수정하기
 마지막 함수는 `main`함수입니다. `main`함수의 template는 아래와 같습니다.
@@ -92,7 +94,7 @@ def main():
 위의 설명은 상당히 복잡합니다. 여러분들이 `if`, `while` 문에 대해서 기본적인 이해가 부족하다면 실제로 구현하기 어려울 것입니다. 반드시 강의자료를 복습하고 실제 구현을 해보길 바랍니다.
 
 ## 결과 출력하기
-실제 코드가 다 작성되어 `python factorial_calculator.py` 아래와 같이 결과를 볼 수 있을 것입니다. 당연히 입력 부분은 수강자가 직접 입력을 해주어야 프로그램 진행됩니다.
+실제 코드가 다 작성되어 `python factorial_calculator.py` 아래와 같이 결과를 볼 수 있을 것입니다. 당연히 입력 부분은 수강생이 직접 입력을 해주어야 프로그램이 진행됩니다.
 
 ```bash
 Input a positive number : 10
@@ -124,7 +126,7 @@ python submit.py
 위 명령어를 입력하면, 아래와 같은 내용이 띄면서 Login ID와 Password를 물어보게 될 것입니다. http://theteamlab.io 웹 페이지에 가입시 사용했던 ID와 비밀번호를 입력합니다.
 
 ```python
-== Submmting solutions | fahrenheit_converter.py
+== Submmting solutions | factorial_calculator.py
 Login ID:
 Password :
 ```
