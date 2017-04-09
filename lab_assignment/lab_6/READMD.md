@@ -17,7 +17,7 @@ https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/l
 
 ![Factorial 수학식](https://upload.wikimedia.org/math/6/3/a/63a0817e426d92a89470f75c4ad5bd0a.png)
 
-실제 우리가 구현해야할 프로그램은 아래 그림과 같습니다.
+실제 수강생이 구현해야할 프로그램은 아래 그림과 같습니다.
 
 ![프로그램 실행 스크린샷](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/lab_8_factorial_calculator/factorial_calculator_screen_shot.png)
 
@@ -27,7 +27,7 @@ https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/l
 2. 사용자가 자연수와 0이외 다른 문자를 `Input again, Please`라는 글자가 출력되면서 다시 입력할 수 있도록 합니다.
 3. 사용자가 0을 입력하면 `Thank you for using this program`이라는 메세지를 출력하면서 종료합니다.
 
-로직 자체는 상당히 간단하고, 이미 배운 내용들로 충분히 구현할 수 있습니다. 하지만, 처음 해보는 Control 숙제이기 때문에 상당히 어렵게 느껴질 것입니다. 이번 Lab은 조금 자세히 설명하니 꼭 문서를 정독하길 바랍니다.
+로직 자체는 상당히 간단하고, 이미 배운 내용들로 충분히 구현할 수 있습니다. 하지만, 처음 해보는 Control 숙제이기 때문에 상당히 어렵게 느껴질 것입니다. 이번 Lab은 조금 자세히 설명하니 꼭 문서를 정독하시길 바랍니다.
 
 ## factorial_calculator.py 파일 Overview
 `atom`으로 `factorial_calculator.py`을 열어 전체적인 개요를 봅시다.
@@ -85,7 +85,7 @@ def main():
 `main`함수의 시작은 `user_input = 999`입니다. `user_input`은 사용자가 입력한 값을 할당받는 변수입니다. 만약 `user_input`이 필요없다고 생각되면 지워도 전혀 문제가 없습니다. `user_input = 999`이 이유는 while문에 진입하기 위해서 입니다. 아래 설명에도 나오지만 본 lab에서는 while문에 종료조건은 `user_input`이 0인 경우입니다. 제일 처음 시작을 위해 `user_input`에 `999`를 할당하였습니다.
 이미 설명이 된 부분이지만, Loop 구문에서 종료를 해야하는 횟수가 정해져 있지 않다면 `while` 문을 쓰는 것이 좋습니다. 여기에선 "사용자가 0을 입력하면 종료" 라는 조건이 있기 때문에 `while(user_input is not 0):` 이라는 구문으로 시작하면 좋을 것입니다.
 `while`문을 실행한 후 처음 할 일은 사용자에게 입력을 받는 것입니다. 입력을 받을 때는 `input("Input a positive number : ")` 문을 사용하면 되고, 입력된 값은 `user_input` 변수에 할당합니다.
-다음으로 입력된 값이 factorial 값을 계산할 수 있는지 확인하기 위해 if문과 `is_positive_number` 함수를 사용합니다. `if is_positive_number(user_input):` 와 같이 쓰면 입력된 값이 자연수일 때는 `True`를, 아닐 경우는 `False`를 반환하여 분기를 수행합니다.
+다음으로 입력된 값이 factorial 값을 계산할 수 있는지 확인하기 위해 if문과 `is_positive_number` 함수를 사용합니다. `if is_positive_number(user_input):` 와 같이 쓰면 입력된 값이 자연수일 때는 `True`를, 아닐 경우는 `False`를 반환합니다.
 
 - 반환된 값이 `True`일 경우 `user_input` 값을 integer 값으로 변환한 후, `get_factorial_value` 함수를 사용하여 user_input의 factorial 값을 반환받고 화면에 출력합니다.
 - 반환된 값이 `False`일 경우, 해당 값이 `'0'` 인지 확인하여 0일 경우, 프로그램을 종료합니다. 이를 위해서는 `elif user_input is '0':` 과 같은 구문을 쓰고, 본 조건에서 `user_input = 0` 으로 할당해주면 `while` 문의 종료 조건에 의해 프로그램이 종료될 것입니다. 물론 종료되기 전에 `Thank you for using this program`라는 문자열을 반드시 화면에 출력해줘야 합니다.
