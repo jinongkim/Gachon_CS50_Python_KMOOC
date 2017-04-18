@@ -1,5 +1,5 @@
-Lab #6- Factorial 계산기 (factorial_calculator)
-=======
+Lab #6 - Factorial 계산기 (factorial_calculator)
+=============================================
 Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
@@ -13,7 +13,7 @@ https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/l
 다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab 6 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_6/lab_6.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 lab_6.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
 
 ## Factorial Calculator Overview
-먼저 이번 숙제의 목적인 Factorial 계산기에 대하여 알아보면, 한국어로는 "계승"으로도 번역되는 Factorial은 1 부터 n까지의 모든 자연수를 곱한 결과를 의미합니다. 즉 n factorial은 `1 X 2 X 3 X ... X n`의 의미이며, 숫자기호로는 `n!`로 표시합니다. 만약 `5!` 인 경우는 `1 X 2 X 3 X 4 X 5` 즉 `120`을 의미합니다. 수학적으로 좀 유식하게 쓰면 아래처럼 표현하기도 합니다(From wikipedia). 자세한 내용은 [wikipedia의 계승 페이지][1]를 참고하시기 바랍니다.
+먼저 이번 숙제의 목적인 Factorial 계산기에 대하여 알아보면, 한국어로는 "계승" 또는 "차례곱" 으로도 번역되는 Factorial은 1 부터 n까지의 모든 자연수를 곱한 결과를 의미합니다. 즉 n factorial은 `1 X 2 X 3 X ... X n`의 의미이며, 숫자기호로는 `n!`로 표시합니다. 만약 `5!` 인 경우는 `1 X 2 X 3 X 4 X 5` 즉 `120`을 의미합니다. 수학적으로 좀 유식하게 쓰면 아래처럼 표현하기도 합니다(From wikipedia). 자세한 내용은 [wikipedia의 계승 페이지][1]를 참고하시기 바랍니다.
 
 ![Factorial 수학식](https://upload.wikimedia.org/math/6/3/a/63a0817e426d92a89470f75c4ad5bd0a.png)
 
@@ -60,11 +60,11 @@ def is_positive_number(integer_str_value):
 본 함수의 기본 목적은 사용자가 입력한 값이 자연수인지 아닌지 확인 하는 것입니다. 본 함수는 `integer_str_value`로 입력됩니다. `pass` 부분을 지우고 indentation에 맞춰서 `integer_str_value`가 자연수인지 아닌지 확인하는 조건문을 `if`를 사용하여 작성해보기 바랍니다. 물론 사용자가 입력하는  값은 문자열이기 때문에 해당 값을 먼저 integer 값으로 변환해주어야 합니다. 이미 알고 있겠지만 자연수라 함은 "1이상인 정수"를 의미합니다.
 다시 정리하면 본 함수에서는
 
-1. 입력된 integer_str_value를 intger type값으로 변환합니다.
+1. 입력된 integer_str_value를 integer type값으로 변환합니다.
 2. 변환된 값이 자연수 인지 아닌지 확인합니다.
 3. 자연수 일 경우 True를, 아닐 경우 False를 반환합니다.
 
-integer로 변환이 불가능할 경우, `try ~ catch` 문에 의해 자동으로 `False`를 반환하니 신경쓰지 마시길 바랍니다. 위의 목적에 맞게 코드를 작성해 봅시다.
+Integer로 변환이 불가능할 경우, `try ~ catch` 문에 의해 자동으로 `False`를 반환하니 신경쓰지 마시길 바랍니다. 위의 목적에 맞게 코드를 작성해 봅시다.
 
 ## get_factorial_value 함수 작성하기
 두 번째 함수는 `get_factorial_value` 입니다. 본 함수는 `integer_value` 라는 자연수 값을 입력받아, 해당 값의 factorial 값을 반환합니다. 이미 자연수로 변환된 값만 입력받기 때문에 위 `is_positive_number` 함수처럼 입력된 값에 대한 확인을 할 필요가 없습니다.
@@ -81,7 +81,7 @@ def main():
     # ==================================
 ```
 
-참고로 본 Lab에서 설명하는 방법은 많은 구현 방법중 하나일 뿐입니다. 스스로 구현하는 방법이 있다면 그 방법대로 하셔도 됩니다. 아래 설명은 구현에 대한 대략적인 설명입니다. loop문이나 if문에 대해 이해가 없이 시작하면 이해가 불가능합니다. 설명을 이해한 후 스스로 코드를 작성해 보시기 바랍니다.
+참고로 본 Lab에서 설명하는 방법은 많은 구현 방법중 하나일 뿐입니다. 스스로 구현하는 방법이 있다면 그 방법대로 하셔도 됩니다. 아래 설명은 구현에 대한 대략적인 설명입니다. loop문이나 if문에 대해 이해가 없이 시작하면 작성이 불가능합니다. 설명을 이해한 후 스스로 코드를 작성해 보시기 바랍니다.
 `main`함수의 시작은 `user_input = 999`입니다. `user_input`은 사용자가 입력한 값을 할당받는 변수입니다. 만약 `user_input`이 필요없다고 생각되면 지워도 전혀 문제가 없습니다. `user_input = 999`이 이유는 while문에 진입하기 위해서 입니다. 아래 설명에도 나오지만 본 lab에서는 while문에 종료조건은 `user_input`이 0인 경우입니다. 제일 처음 시작을 위해 `user_input`에 `999`를 할당하였습니다.
 이미 설명이 된 부분이지만, Loop 구문에서 종료를 해야하는 횟수가 정해져 있지 않다면 `while` 문을 쓰는 것이 좋습니다. 여기에선 "사용자가 0을 입력하면 종료" 라는 조건이 있기 때문에 `while(user_input is not 0):` 이라는 구문으로 시작하면 좋을 것입니다.
 `while`문을 실행한 후 처음 할 일은 사용자에게 입력을 받는 것입니다. 입력을 받을 때는 `input("Input a positive number : ")` 문을 사용하면 되고, 입력된 값은 `user_input` 변수에 할당합니다.
