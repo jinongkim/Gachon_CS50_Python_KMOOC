@@ -96,7 +96,7 @@ def main():
 ## 결과 출력하기
 실제 코드가 다 작성되어 `python factorial_calculator.py` 아래와 같이 결과를 볼 수 있을 것입니다. 당연히 입력 부분은 수강생이 직접 입력을 해주어야 프로그램이 진행됩니다.
 
-```bash
+```python
 Input a positive number : 10
 3628800
 Input a positive number : 3
@@ -132,7 +132,7 @@ Password :
 ```
 참고로 lab assignment 제출은 진행 중간중간해도 문제가 없습니다. 제대로 작성되었다면 아래와 같은 메세지를 확인할 수 있을 것입니다.
 
-```bash
+```python
 -------------------- | ---------- | --------------------
        Function Name |    Passed? |             Feedback
 -------------------- | ---------- | --------------------
