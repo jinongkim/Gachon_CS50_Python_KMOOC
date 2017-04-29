@@ -17,7 +17,7 @@ import unittest
 
 TOKEN_PICKLE_FILE_NAME = "access_token"
 HOST = "theteamlab.io"
-ASSIGNMENT_NAME = "fahrenheit_converter.py"
+ASSIGNMENT_NAME = "baseball_game.py"
 
 
 def getArgumentsParser(argv=None):
