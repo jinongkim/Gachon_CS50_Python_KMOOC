@@ -1,24 +1,23 @@
 Extreme Lab #1 - 마방진 (Magic Square)
 =======
-Copyright 2015 © document created by TeamLab.Gachon@gmail.com
+Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
-처음으로 나오는 Extreme Homework. 이때까지 모든 Lab은 모두가 할 수 있게 설계되었다면 이번 숙제는 정말 열심히 따라온 학생들만 풀수 있는 어려운 Lab이다.
-이번 Lab은 마방진 게임이다. 드라마 "뿌리깊은 나무" 에서 어린 세종으로 나왔던 송중기가 시간을 보내기 위해 열심히 풀었던 문제이기도 하다
+처음으로 나오는 Extreme Homework. 이때까지 모든 Lab은 모두가 할 수 있게 설계되었다면 이번 숙제는 정말 열심히 따라온 학생들만 풀수 있는 어려운 Lab입니다.
+이번 Lab은 마방진 게임입니다. 드라마 "뿌리깊은 나무" 에서 어린 세종으로 나왔던 송중기가 시간을 보내기 위해 열심히 풀었던 문제이기도 합니다.
 
  ![송중기는 잘 생겼다](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/ex_lab_1_maqic_square_game/magic_square.png)
 
-마방진 문제는 의외로 간단하다. 그러나 로직을 for문과 if문으로 표현하는데 익숙하지 않다면 표현하는데 상당한 어려움을 겪게 될 것이다. 
+마방진 문제는 의외로 간단합니다. 그러나 로직을 for문과 if문으로 표현하는데 익숙하지 않다면 표현하는데 상당한 어려움을 겪게 될 것입니다. 
 
-## 숙제 template 파일 다운로드
-먼저 숙제 template 파일을 cs50 서버로 부터 다운로드 받는다. 로그인 후 나타나는 bash shell에서 다음과 같은 명령을 입력하자.
-```bash
-python3.4 submit_assignment.py -get magic_square
-```  
-정상적으로 다운했다면 현재 디렉토리에 `magic_square_game.py` 파일 생성되었을 것이다. `ls` 명령어로 확인하자.
+## 숙제 파일(ex_lab_1.zip) 다운로드
+먼저 숙제 template 파일을 다운받아야 합니다. Chrome 또는 익스플로러와 같은 웹 브라우저 주소창에 아래 주소를 입력합니다.
+> https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_ex_1/lab_ex_1.zip
 
-## baseball_game.py 파일 Overview
-`vim editor`로 `magic_square.py`을 열어 전체적인 개요를 보자. `vi magic_square_game.py`명령으로 파일을 열어보면 `main` 함수와 여러개의 함수들이 존재할 것이다. 각 함수들은 여러분께서 직접 작성해서 제출해야 하는 함수이고, `main` 함수는 실제 마방진 프로그램을 실행하는 함수이다. 각 함수의 구현 내용은 아래와 같다.
+다운로드를 위해 View Raw 또는 Download 버튼을 클릭합니다. 또는 [Lab_ex_1 - 다운로드 링크](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_ex_1/lab_ex_1.zip) 를 클릭하면 자동으로 다운로드가 됩니다. 다운로드 된 ex_lab_1.zip 파일을 작업 폴더로 이동한 후 압축해제 후 작업하길 바랍니다.
+
+## magic_square_game.py 파일 Overview
+`atom editor`로 `magic_square.py`을 열어 전체적인 개요를 보자. 파일을 열어보면 `main` 함수와 여러개의 함수들이 존재할 것이다. 각 함수들은 여러분께서 직접 작성해서 제출해야 하는 함수이고, `main` 함수는 실제 마방진 프로그램을 실행하는 함수이다. 각 함수의 구현 내용은 아래와 같다.
 
 함수           | 설명 
 --------       | ---
