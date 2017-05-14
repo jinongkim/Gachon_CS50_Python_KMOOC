@@ -6,7 +6,7 @@ Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 처음으로 나오는 Extreme Homework. 이때까지 모든 Lab은 모두가 할 수 있게 설계되었다면 이번 숙제는 정말 열심히 따라온 학생들만 풀수 있는 어려운 Lab입니다.
 이번 Lab은 마방진 게임입니다. 드라마 "뿌리깊은 나무" 에서 어린 세종으로 나왔던 송중기가 시간을 보내기 위해 열심히 풀었던 문제이기도 합니다.
 
- ![송중기는 잘 생겼다](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/ex_lab_1_maqic_square_game/magic_square.png)
+ ![송중기는 잘 생겼다](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/magic_square.png)
 
 마방진 문제는 의외로 간단합니다. 그러나 로직을 for문과 if문으로 표현하는데 익숙하지 않다면 표현하는데 상당한 어려움을 겪게 될 것입니다. 
 
@@ -36,7 +36,7 @@ is_magic_sqaure        | 정사각행렬 형태의 two dimensional list를 입�
 - 일반적으로 마방진의 각 칸에는 1부터 n*n까지의 수가 한 개씩 들어갑니다. n이 2일 때를 제외하고 항상 존재합니다.
 간단한 3 by 3 행렬의 마방진은 다음 예제와 같습니다. ([메모리스트의 상상 노트][1]).
 
-![마방진 예제](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/ex_lab_1_maqic_square_game/magic_square_example.png)
+![마방진 예제](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/magic_square_example.png)
 
 이때 홀수 마방진과 4배수 짝수 마방진의 구성하는 방법은 아래와 같습니다. 
 
@@ -89,7 +89,7 @@ def main():
 
 실제로 작성된 프로그램의 실행화면은 다음과 같습니다.
 
-![마방진 프로그램 실제 실행 화면](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/ex_lab_1_maqic_square_game/screen_shot_magic_square_1.png)
+![마방진 프로그램 실제 실행 화면](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/screen_shot_magic_square_1.png)
 
 
 ## 숙제 제출하기
