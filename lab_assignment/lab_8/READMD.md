@@ -1,5 +1,5 @@
-Lab #10 - Morse Code (morsecode)
-=======
+Lab #8 - Morse Code (morsecode)
+===============================
 Copyright 2017 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
