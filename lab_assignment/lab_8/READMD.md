@@ -146,10 +146,11 @@ Input your message(H - Help, 0 - Exit): SOS
 Input your message(H - Help, 0 - Exit): Hello!
 .... . .-.. .-.. ---
 Input your message(H - Help, 0 - Exit): This is Gachon
-- .... .. ...  .. ...  --. .- -.-. .... --- -.
+ - .... .. ...  .. ...  --. .- -.-. .... --- -.
 ```
+
 4. 알파벳으로 변환이 가능한 모스부호가 입력되면 알파벳으로 변환해준다.
-```python
+```
 Input your message(H - Help, 0 - Exit): ... --- ...
 SOS
 Input your message(H - Help, 0 - Exit): ... . ...
@@ -171,12 +172,14 @@ Input your message(H - Help, 0 - Exit): Hello 123!
 Wrong Input
 ```
 
+> Lab#8 morsecode에서 encoding_sentence만 pass되지 않는다는 분들이 많으셔서 전체 공지합니다!
+encoding_sentence 함수에서는 영어 단어 사이에 띄어쓰기가 두 개 이상일 경우 한 개로 처리해준 후 모스부호로 변환해 주어야 합니다!
+
 실제 실행된 프로그램의 예제화면은 아래와 같습니다.
 
 ![프로그램 실행 예시](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/lab_10_morsecode/implementation_example.png)
 
 
-## 숙제 제출하기
 ## 숙제 제출하기
 모든 lab assignment가 종료되었습니다. 이제 숙제를 제출합시다.
 - `windows`+`r`를 누르고 cmd 입력 후 확인을 클릭합니다.
